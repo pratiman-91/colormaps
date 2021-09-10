@@ -7,23 +7,23 @@ permalink: /
 ---
 
 # Colormaps
-{: .fs-9 }
+<!--- {: .fs-9 } -->
 
 Colormaps is a library of collection of colormaps or color palettes for Python. It's written in Python with matplotlib and numpy as dependencies. You can use Colormaps to customize matplotlib plots.
-{: .fs-6 .fw-300 }
+<!---{: .fs-6 .fw-300 } -->
 
 Colormaps has colormaps or color palettes from:
 
-- cartocolors 
-- cmocean
-- colorbrewer
-- cubehelix
-- ncar ncl
-- scientific
-- tableau
+- [cartocolors](/docs/cartocolors/) 
+- [cmocean](/docs/cmocean/)
+- [colorbrewer](/docs/colorbrewer/)
+- [cubehelix](/docs/cubehelix)
+- [ncar ncl](/docs/ncar_ncl/)
+- [scientific](/docs/scientific/)
+- [tableau](/docs/tableau/)
 - `may be more`
 
-[//]: <>'[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }'
+<!---'[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }' -->
 
 ---
 
@@ -43,64 +43,96 @@ Coming Soon...
 ### Finding Colormaps
 
 Colormaps are pre-built and loaded at the time of importing. 
+
+### Using Colormaps
+
+- Importing Colormaps
+
 ```python
 import colormaps as cmaps
+cmaps.drought_severity
 ```
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
+
+![brwnyl](/assets/images/ncar_ncl/drought_severity.png)
+
+```python
+cmaps.ice
 ```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-```yaml
-theme: "just-the-docs"
+![ice](/assets/images/cmocean/ice.png)
+
+- Getting discrete number of levels
+
+```python
+cmaps.ice.discrete(10)
 ```
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-```bash
-$ bundle exec just-the-docs rake search:init
+
+![ice_discrete](/assets/images/demo/ice_discrete_10.png)
+
+- Shifting the colormap
+
+```python
+cmaps.ice.shift(0.5)
 ```
-3. Run you local Jekyll server
-```bash
-$ jekyll serve
+
+![ice_shift](/assets/images/demo/ice_shift_0_5.png)
+
+- Shifting and then discrete levels
+
+```python
+cmaps.ice.shift(0.5).discrete(10)
 ```
-```bash
-# .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
+
+![ice_shift_discrete](/assets/images/demo/ice_shift_0_5_discrete_10.png)
+
+- Discrete levels then cut the colormap from left side
+
+```python
+cmaps.ice.discrete(11).cut(0.25, 'left')
 ```
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
 
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+![ice_shift_discrete](/assets/images/demo/ice_discrete_11_cut_0.25.png)
 
-### Configure Just the Docs
+- Concatenate two or more colormaps
 
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+```python
+from colormaps.utils import concat
+concat1 = concat(["cmocean_ice", "BkBlAqGrYeOrReViWh200"])
+```
 
----
+![concat_1](/assets/images/demo/concat_1.png)
 
-## About the project
+- Concatenate two or more colormaps based on ratio
 
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
+```python
+from colormaps.utils import concat
+concat2 = concat([cmaps.cmocean_ice, cmaps.BkBlAqGrYeOrReViWh200], ratios=[0.25,0.75])
+```
 
-### License
+![concat_1](/assets/images/demo/concat_2.png)
 
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
+- Matplotlib usage example
 
-### Contributing
+```python
+import matplotlib.pyplot as plt
+import colormaps as cmaps
+import numpy as np
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
+x = y = np.arange(-3.0, 3.01, 0.05)
+X, Y = np.meshgrid(x, y)
 
-#### Thank you to the contributors of Just the Docs!
+sigmax = sigmay = 1.0
+mux = muy = sigmaxy=0.0
 
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
+Xmu = X-mux
+Ymu = Y-muy
 
-### Code of Conduct
+rho = sigmaxy/(sigmax*sigmay)
+z = Xmu**2/sigmax**2 + Ymu**2/sigmay**2 - 2*rho*Xmu*Ymu/(sigmax*sigmay)
+denom = 2*np.pi*sigmax*sigmay*np.sqrt(1-rho**2)
+Z = np.exp(-z/(2*(1-rho**2))) / denom
 
-Just the Docs is committed to fostering a welcoming community.
+plt.pcolormesh(X,Y,Z,cmap=cmaps.cubehelix3_16_r)
+plt.colorbar()
+```
 
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
+![concat_1](/assets/images/demo/matplotlib_1.png)

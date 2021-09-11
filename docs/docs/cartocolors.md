@@ -15,7 +15,7 @@
 
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
-| aggrnyl| ![aggrnyl](/assets/images/cartocolors/aggrnyl.png) | ```cmaps.aggrnyl``` | 7| 
+| aggrnyl| ![aggrnyl](/colormaps/assets/images/cartocolors/aggrnyl.png) | ```cmaps.aggrnyl``` | 7| 
 | agsunset| ![agsunset](/assets/images/cartocolors/agsunset.png) | ```cmaps.agsunset``` | 7| 
 | antique| ![antique](/assets/images/cartocolors/antique.png) | ```cmaps.antique``` | 11| 
 | armyrose| ![armyrose](/assets/images/cartocolors/armyrose.png) | ```cmaps.armyrose``` | 7| 

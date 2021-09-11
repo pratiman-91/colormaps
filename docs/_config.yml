@@ -1,6 +1,5 @@
 title: "Colormaps"
 remote_theme: pmarsceill/just-the-docs
-color_scheme: "nil"
 search_enabled: false
 
 # Back to top link
@@ -8,3 +7,19 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 footer_content: "Compiled by Pratiman Patel."
+
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: "light"
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false

@@ -14,6 +14,7 @@ Colormaps has colormaps or color palettes from:
 - [scientific](https://pratiman-91.github.io/colormaps/docs/scientific)
 - [tableau](https://pratiman-91.github.io/colormaps/docs/tableau)
 - `may be more`
+
 Docs: https://pratiman-91.github.io/colormaps/
 ---
 

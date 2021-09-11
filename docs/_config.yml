@@ -23,13 +23,14 @@ permalink: pretty
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: pmarsceill/just-the-docs
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 #theme: "just-the-docs"
-remote_theme: pmarsceill/just-the-docs
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -38,7 +38,11 @@ Python with:
 
 ### Installation
 
-Coming Soon...
+```bash
+git clone https://github.com/pratiman-91/colormaps.git
+cd cmaps
+python setup.py install
+```
 
 ### Finding Colormaps
 

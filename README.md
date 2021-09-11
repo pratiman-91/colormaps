@@ -15,6 +15,7 @@ Colormaps has colormaps or color palettes from:
 - [tableau](https://pratiman-91.github.io/colormaps/docs/tableau)
 - `may be more`
 
+Docs: [https://pratiman-91.github.io/colormaps/]https://pratiman-91.github.io/colormaps/
 ---
 
 ## Getting started
@@ -30,7 +31,7 @@ Python with:
 
 ```bash
 git clone https://github.com/pratiman-91/colormaps.git
-cd cmaps
+cd colormaps
 python setup.py install
 ```
 

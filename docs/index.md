@@ -40,7 +40,7 @@ Python with:
 
 ```bash
 git clone https://github.com/pratiman-91/colormaps.git
-cd cmaps
+cd colormaps
 python setup.py install
 ```
 

@@ -13766,21 +13766,21 @@ class Cmaps(object):
         return cmap
 
     @property
-    def brown_orangegray1(self):
-        cname = "brown_orangegray1"
+    def brown_orange1(self):
+        cname = "brown_orange1"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "brown_orangegray1.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "brown_orange1.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def brown_orangegray1_r(self):
-        cname = "brown_orangegray1_r"
+    def brown_orange1_r(self):
+        cname = "brown_orange1_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "brown_orangegray1.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "brown_orange1.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
@@ -13866,21 +13866,21 @@ class Cmaps(object):
         return cmap
 
     @property
-    def brown_vaneyckbrown1(self):
-        cname = "brown_vaneyckbrown1"
+    def brown_vbrown1(self):
+        cname = "brown_vbrown1"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "brown_vaneyckbrown1.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "brown_vbrown1.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def brown_vaneyckbrown1_r(self):
-        cname = "brown_vaneyckbrown1_r"
+    def brown_vbrown1_r(self):
+        cname = "brown_vbrown1_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "brown_vaneyckbrown1.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "brown_vbrown1.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
@@ -14106,161 +14106,161 @@ class Cmaps(object):
         return cmap
 
     @property
-    def discrete_1_7_section_muted(self):
-        cname = "discrete_1_7_section_muted"
+    def discrete_Bg(self):
+        cname = "discrete_Bg"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_1_7_section_muted.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_Bg.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_1_7_section_muted_r(self):
-        cname = "discrete_1_7_section_muted_r"
+    def discrete_Bg_r(self):
+        cname = "discrete_Bg_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_1_7_section_muted.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_Bg.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_2_5_discrete_gr_ye_rd_dark(self):
-        cname = "discrete_2_5_discrete_gr_ye_rd_dark"
+    def discrete_Bo(self):
+        cname = "discrete_Bo"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_2_5_discrete_gr_ye_rd_dark.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_Bo.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_2_5_discrete_gr_ye_rd_dark_r(self):
-        cname = "discrete_2_5_discrete_gr_ye_rd_dark_r"
+    def discrete_Bo_r(self):
+        cname = "discrete_Bo_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_2_5_discrete_gr_ye_rd_dark.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_Bo.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_3_5_section_muted_autumn(self):
-        cname = "discrete_3_5_section_muted_autumn"
+    def discrete_autumn(self):
+        cname = "discrete_autumn"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_3_5_section_muted_autumn.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_autumn.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_3_5_section_muted_autumn_r(self):
-        cname = "discrete_3_5_section_muted_autumn_r"
+    def discrete_autumn_r(self):
+        cname = "discrete_autumn_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_3_5_section_muted_autumn.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_autumn.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_4_4_section_light_autumn(self):
-        cname = "discrete_4_4_section_light_autumn"
+    def discrete_dark(self):
+        cname = "discrete_dark"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_4_4_section_light_autumn.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_dark.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_4_4_section_light_autumn_r(self):
-        cname = "discrete_4_4_section_light_autumn_r"
+    def discrete_dark_r(self):
+        cname = "discrete_dark_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_4_4_section_light_autumn.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_dark.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_5_4_section_blue_orange(self):
-        cname = "discrete_5_4_section_blue_orange"
+    def discrete_light_aut(self):
+        cname = "discrete_light_aut"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_5_4_section_blue_orange.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_light_aut.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_5_4_section_blue_orange_r(self):
-        cname = "discrete_5_4_section_blue_orange_r"
+    def discrete_light_aut_r(self):
+        cname = "discrete_light_aut_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_5_4_section_blue_orange.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_light_aut.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_6_4_discrete_blue_green(self):
-        cname = "discrete_6_4_discrete_blue_green"
+    def discrete_muted(self):
+        cname = "discrete_muted"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_6_4_discrete_blue_green.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_muted.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_6_4_discrete_blue_green_r(self):
-        cname = "discrete_6_4_discrete_blue_green_r"
+    def discrete_muted_r(self):
+        cname = "discrete_muted_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_6_4_discrete_blue_green.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_muted.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_7_4_section_discrete_vaneyck(self):
-        cname = "discrete_7_4_section_discrete_vaneyck"
+    def discrete_vaneyck(self):
+        cname = "discrete_vaneyck"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_7_4_section_discrete_vaneyck.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_vaneyck.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def discrete_7_4_section_discrete_vaneyck_r(self):
-        cname = "discrete_7_4_section_discrete_vaneyck_r"
+    def discrete_vaneyck_r(self):
+        cname = "discrete_vaneyck_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_7_4_section_discrete_vaneyck.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "discrete_vaneyck.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def div1_blue_orange_div(self):
-        cname = "div1_blue_orange_div"
+    def div1_blue_orange(self):
+        cname = "div1_blue_orange"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div1_blue_orange_div.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div1_blue_orange.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def div1_blue_orange_div_r(self):
-        cname = "div1_blue_orange_div_r"
+    def div1_blue_orange_r(self):
+        cname = "div1_blue_orange_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div1_blue_orange_div.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div1_blue_orange.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
@@ -14286,41 +14286,41 @@ class Cmaps(object):
         return cmap
 
     @property
-    def div3_green_brown_div(self):
-        cname = "div3_green_brown_div"
+    def div3_green_brown(self):
+        cname = "div3_green_brown"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div3_green_brown_div.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div3_green_brown.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def div3_green_brown_div_r(self):
-        cname = "div3_green_brown_div_r"
+    def div3_green_brown_r(self):
+        cname = "div3_green_brown_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div3_green_brown_div.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div3_green_brown.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def div5_asym_orange_blue(self):
-        cname = "div5_asym_orange_blue"
+    def div5_asym_Ob(self):
+        cname = "div5_asym_Ob"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div5_asym_orange_blue.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div5_asym_Ob.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def div5_asym_orange_blue_r(self):
-        cname = "div5_asym_orange_blue_r"
+    def div5_asym_Ob_r(self):
+        cname = "div5_asym_Ob_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div5_asym_orange_blue.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "div5_asym_Ob.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
@@ -14406,26 +14406,6 @@ class Cmaps(object):
         return cmap
 
     @property
-    def green_gr_mustard(self):
-        cname = "green_gr_mustard"
-        if cname in matplotlib.cm._cmap_registry:
-            return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "green_gr_mustard.rgb")
-        cmap = Colormap(self._coltbl(cmap_file), name=cname)
-        matplotlib.cm.register_cmap(name=cname, cmap=cmap)
-        return cmap
-
-    @property
-    def green_gr_mustard_r(self):
-        cname = "green_gr_mustard_r"
-        if cname in matplotlib.cm._cmap_registry:
-            return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "green_gr_mustard.rgb")
-        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
-        matplotlib.cm.register_cmap(name=cname, cmap=cmap)
-        return cmap
-
-    @property
     def green_green1(self):
         cname = "green_green1"
         if cname in matplotlib.cm._cmap_registry:
@@ -14481,6 +14461,26 @@ class Cmaps(object):
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
         cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "green_mistyteal.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+        return cmap
+
+    @property
+    def green_mustard(self):
+        cname = "green_mustard"
+        if cname in matplotlib.cm._cmap_registry:
+            return matplotlib.cm.get_cmap(cname)
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "green_mustard.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+        return cmap
+
+    @property
+    def green_mustard_r(self):
+        cname = "green_mustard_r"
+        if cname in matplotlib.cm._cmap_registry:
+            return matplotlib.cm.get_cmap(cname)
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "green_mustard.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
@@ -14926,26 +14926,6 @@ class Cmaps(object):
         return cmap
 
     @property
-    def m_purp_pink_circle1(self):
-        cname = "m_purp_pink_circle1"
-        if cname in matplotlib.cm._cmap_registry:
-            return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "m_purp_pink_circle1.rgb")
-        cmap = Colormap(self._coltbl(cmap_file), name=cname)
-        matplotlib.cm.register_cmap(name=cname, cmap=cmap)
-        return cmap
-
-    @property
-    def m_purp_pink_circle1_r(self):
-        cname = "m_purp_pink_circle1_r"
-        if cname in matplotlib.cm._cmap_registry:
-            return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "m_purp_pink_circle1.rgb")
-        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
-        matplotlib.cm.register_cmap(name=cname, cmap=cmap)
-        return cmap
-
-    @property
     def mauve1(self):
         cname = "mauve1"
         if cname in matplotlib.cm._cmap_registry:
@@ -15186,6 +15166,26 @@ class Cmaps(object):
         return cmap
 
     @property
+    def purp_pink(self):
+        cname = "purp_pink"
+        if cname in matplotlib.cm._cmap_registry:
+            return matplotlib.cm.get_cmap(cname)
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "purp_pink.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+        return cmap
+
+    @property
+    def purp_pink_r(self):
+        cname = "purp_pink_r"
+        if cname in matplotlib.cm._cmap_registry:
+            return matplotlib.cm.get_cmap(cname)
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "purp_pink.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+        return cmap
+
+    @property
     def red2b(self):
         cname = "red2b"
         if cname in matplotlib.cm._cmap_registry:
@@ -15306,21 +15306,21 @@ class Cmaps(object):
         return cmap
 
     @property
-    def speed_yel25e(self):
-        cname = "speed_yel25e"
+    def speed_yel(self):
+        cname = "speed_yel"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "speed_yel25e.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "speed_yel.rgb")
         cmap = Colormap(self._coltbl(cmap_file), name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap
 
     @property
-    def speed_yel25e_r(self):
-        cname = "speed_yel25e_r"
+    def speed_yel_r(self):
+        cname = "speed_yel_r"
         if cname in matplotlib.cm._cmap_registry:
             return matplotlib.cm.get_cmap(cname)
-        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "speed_yel25e.rgb")
+        cmap_file = os.path.join(CMAPSFILE_DIR, "sciviz",  "speed_yel.rgb")
         cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
         matplotlib.cm.register_cmap(name=cname, cmap=cmap)
         return cmap

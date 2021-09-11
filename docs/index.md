@@ -14,13 +14,13 @@ Colormaps is a library of collection of colormaps or color palettes for Python. 
 
 Colormaps has colormaps or color palettes from:
 
-- [cartocolors](/colormaps/docs/cartocolors/) 
-- [cmocean](/colormaps/docs/cmocean/)
-- [colorbrewer](/colormaps/docs/colorbrewer/)
+- [cartocolors](/colormaps/docs/cartocolors) 
+- [cmocean](/colormaps/docs/cmocean)
+- [colorbrewer](/colormaps/docs/colorbrewer)
 - [cubehelix](/colormaps/docs/cubehelix)
-- [ncar ncl](/colormaps/docs/ncar_ncl/)
-- [scientific](/colormaps/docs/scientific/)
-- [tableau](/colormaps/docs/tableau/)
+- [ncar ncl](/colormaps/docs/ncar_ncl)
+- [scientific](/colormaps/docs/scientific)
+- [tableau](/colormaps/docs/tableau)
 - `may be more`
 
 <!---'[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }' -->

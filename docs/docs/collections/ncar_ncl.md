@@ -1,12 +1,12 @@
 --- 
  layout: default 
- title: ncar_ncl
+ title: NCAR NCL
  parent: Collections 
  nav_order: 5 
  permalink: /docs/collections/ncar_ncl 
 --- 
 
-# ncar_ncl 
+# NCAR NCL
 {: .no_toc } 
 
  ```python 

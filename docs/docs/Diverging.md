@@ -44,3 +44,4 @@
 | CBR_coldhot| ![CBR_coldhot](/colormaps/assets/images/ncar_ncl/CBR_coldhot.png) | ```cmaps.CBR_coldhot``` | 11| 
 | CBR_drywet| ![CBR_drywet](/colormaps/assets/images/ncar_ncl/CBR_drywet.png) | ```cmaps.CBR_drywet``` | 11| 
 | GHRSST_anomaly| ![GHRSST_anomaly](/colormaps/assets/images/ncar_ncl/GHRSST_anomaly.png) | ```cmaps.GHRSST_anomaly``` | 42| 
+| br4div| ![br4div](/colormaps/assets/images/sciviz/br4div.png) | ```cmaps.br4div``` | 256| 

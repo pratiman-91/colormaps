@@ -1,12 +1,12 @@
 --- 
  layout: default 
- title: scientific
+ title: Scientific
  parent: Collections
  nav_order: 6 
  permalink: /docs/collections/scientific 
 --- 
 
-# scientific 
+# Scientific 
 {: .no_toc } 
 
  ```python 

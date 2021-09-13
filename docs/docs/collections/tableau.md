@@ -1,12 +1,12 @@
 --- 
  layout: default 
- title: tableau
+ title: Tableau
  parent: Collections 
  nav_order: 8 
  permalink: /docs/collections/tableau 
 --- 
 
-# tableau 
+# Tableau 
 {: .no_toc } 
 
  ```python 

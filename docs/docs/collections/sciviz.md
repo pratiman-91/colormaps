@@ -1,12 +1,12 @@
 --- 
  layout: default 
- title: sciviz
+ title: SciViz
  parent: Collections 
  nav_order: 7 
  permalink: /docs/collections/sciviz 
 --- 
 
-# sciviz 
+# SciViz 
 {: .no_toc } 
 
  ```python 

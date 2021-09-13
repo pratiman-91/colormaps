@@ -1,7 +1,7 @@
 --- 
  layout: default 
  title: Sequential Schemes 
- nav_order: 10
+ nav_order: 1
  permalink: /docs/Sequential 
 --- 
 

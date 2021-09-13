@@ -1,11 +1,12 @@
 --- 
  layout: default 
- title: cartocolors 
- nav_order: 2 
- permalink: /docs/cartocolors 
+ title: Cartocolors 
+ nav_order: 1 
+ parent: collections
+ permalink: /docs/collections/cartocolors 
 --- 
 
-# cartocolors 
+# Cartocolors 
 {: .no_toc } 
 
  ```python 

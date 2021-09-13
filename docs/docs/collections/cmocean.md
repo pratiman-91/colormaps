@@ -6,7 +6,7 @@
  permalink: /docs/collections/cmocean 
 --- 
 
-# cmocean 
+# Cmocean 
 
  ```python 
  import colormaps as cmaps 

@@ -3,7 +3,6 @@
  title: Cartocolors 
  parent: collections
  nav_order: 1 
- permalink: /docs/collections/cartocolors 
 --- 
 
 # Cartocolors 

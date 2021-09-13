@@ -7,7 +7,6 @@
 --- 
 
 # Cartocolors 
-{: .no_toc } 
 
  ```python 
  import colormaps as cmaps 

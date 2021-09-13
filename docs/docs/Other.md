@@ -1,8 +1,8 @@
 --- 
  layout: default 
  title: Other Schemes 
- nav_order: 4
- permalink: /docs/Circular 
+ nav_order: 5
+ permalink: /docs/Other 
 --- 
 
 # Circular Schemes

@@ -1,12 +1,12 @@
 --- 
  layout: default 
- title: cmocean 
- nav_order: 3 
- permalink: /docs/cmocean 
+ title: Cmocean 
+ nav_order: 2 
+ parent: collections
+ permalink: /docs/collections/cmocean 
 --- 
 
 # cmocean 
-{: .no_toc } 
 
  ```python 
  import colormaps as cmaps 

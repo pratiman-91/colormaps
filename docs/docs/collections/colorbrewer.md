@@ -1,12 +1,12 @@
 --- 
  layout: default 
- title: colorbrewer 
- nav_order: 4 
- permalink: /docs/colorbrewer 
+ title: Colorbrewer 
+ nav_order: 3 
+ parent: collections
+ permalink: /docs/collections/colorbrewer 
 --- 
 
-# colorbrewer 
-{: .no_toc } 
+# Colorbrewer 
 
  ```python 
  import colormaps as cmaps 

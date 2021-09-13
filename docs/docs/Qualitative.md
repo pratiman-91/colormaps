@@ -1,7 +1,7 @@
 --- 
  layout: default 
  title: Qualitative Schemes 
- nav_order: 12
+ nav_order: 3
  permalink: /docs/Qualitative 
 --- 
 

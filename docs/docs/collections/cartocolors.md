@@ -1,8 +1,9 @@
 --- 
  layout: default 
  title: Cartocolors 
- parent: collections
+ parent: Collections
  nav_order: 1 
+ permalink: /docs/collections/cartocolors 
 --- 
 
 # Cartocolors 

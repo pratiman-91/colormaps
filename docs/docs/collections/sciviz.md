@@ -1,7 +1,7 @@
 --- 
  layout: default 
  title: sciviz
- parent: collections 
+ parent: Collections 
  nav_order: 7 
  permalink: /docs/collections/sciviz 
 --- 

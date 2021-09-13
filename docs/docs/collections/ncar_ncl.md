@@ -1,7 +1,7 @@
 --- 
  layout: default 
  title: ncar_ncl
- parent: collections 
+ parent: Collections 
  nav_order: 5 
  permalink: /docs/collections/ncar_ncl 
 --- 

@@ -1,7 +1,7 @@
 --- 
  layout: default 
  title: Cubehelix 
- parent: collections
+ parent: Collections
  nav_order: 4
  permalink: /docs/collections/cubehelix 
 --- 

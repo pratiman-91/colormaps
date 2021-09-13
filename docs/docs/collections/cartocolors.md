@@ -70,17 +70,3 @@ import colormaps as cmaps
 | **prism**| ![prism](/colormaps/assets/images/cartocolors/prism.png) | ```cmaps.prism``` | 256| 
 | safe| ![safe](/colormaps/assets/images/cartocolors/safe.png) | ```cmaps.safe``` | 11| 
 | vivid| ![vivid](/colormaps/assets/images/cartocolors/vivid.png) | ```cmaps.vivid``` | 11| 
-
-
-
-
-
-
-
-
-
-
-
-
-
-

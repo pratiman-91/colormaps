@@ -7,6 +7,8 @@ permalink: /docs/collections
 ---
 
 # Collections
+{: .no_toc }
 
 List of collection in the Colormaps:
 {: .fs-6 .fw-300 }
+

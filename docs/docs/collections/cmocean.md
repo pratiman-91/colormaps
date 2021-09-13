@@ -1,8 +1,8 @@
 --- 
  layout: default 
  title: Cmocean 
- nav_order: 2 
  parent: collections
+ nav_order: 2
  permalink: /docs/collections/cmocean 
 --- 
 

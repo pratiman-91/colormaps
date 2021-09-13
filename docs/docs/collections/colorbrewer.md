@@ -1,8 +1,8 @@
 --- 
  layout: default 
  title: Colorbrewer 
- nav_order: 3 
  parent: collections
+ nav_order: 3
  permalink: /docs/collections/colorbrewer 
 --- 
 

@@ -1,12 +1,13 @@
 --- 
  layout: default 
- title: cubehelix 
- nav_order: 5 
- permalink: /docs/cubehelix 
+ title: Cubehelix 
+ parent: collections
+ nav_order: 4
+ permalink: /docs/collections/cubehelix 
 --- 
 
-# cubehelix 
-{: .no_toc } 
+# Cubehelix 
+
 
  ```python 
  import colormaps as cmaps 

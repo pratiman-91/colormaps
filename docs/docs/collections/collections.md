@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Colormap Collections
+title: Collections
 nav_order: 6
 has_children: true
 permalink: /docs/collections

@@ -1,8 +1,9 @@
 --- 
  layout: default 
- title: ncar_ncl 
- nav_order: 6 
- permalink: /docs/ncar_ncl 
+ title: ncar_ncl
+ parent: collections 
+ nav_order: 5 
+ permalink: /docs/collections/ncar_ncl 
 --- 
 
 # ncar_ncl 

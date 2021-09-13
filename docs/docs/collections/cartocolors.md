@@ -1,12 +1,13 @@
 --- 
  layout: default 
  title: Cartocolors 
- nav_order: 1 
  parent: collections
+ nav_order: 1 
  permalink: /docs/collections/cartocolors 
 --- 
 
 # Cartocolors 
+
 
  ```python 
  import colormaps as cmaps 

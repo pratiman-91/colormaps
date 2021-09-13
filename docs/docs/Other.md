@@ -24,3 +24,6 @@
 | jim_special_16| ![jim_special_16](/colormaps/assets/images/cubehelix/jim_special_16.png) | ```cmaps.jim_special_16``` | 16| 
 | perceptual_rainbow_16| ![perceptual_rainbow_16](/colormaps/assets/images/cubehelix/perceptual_rainbow_16.png) | ```cmaps.perceptual_rainbow_16``` | 16| 
 | BkBlAqGrYeOrReViWh200| ![BkBlAqGrYeOrReViWh200](/colormaps/assets/images/ncar_ncl/BkBlAqGrYeOrReViWh200.png) | ```cmaps.BkBlAqGrYeOrReViWh200``` | 200| 
+| BlAqGrYeOrRe| ![BlAqGrYeOrRe](/colormaps/assets/images/ncar_ncl/BlAqGrYeOrRe.png) | ```cmaps.BlAqGrYeOrRe``` | 100| 
+| BlAqGrYeOrReVi200| ![BlAqGrYeOrReVi200](/colormaps/assets/images/ncar_ncl/BlAqGrYeOrReVi200.png) | ```cmaps.BlAqGrYeOrReVi200``` | 200| 
+| BlGrYeOrReVi200| ![BlGrYeOrReVi200](/colormaps/assets/images/ncar_ncl/BlGrYeOrReVi200.png) | ```cmaps.BlGrYeOrReVi200``` | 200| 

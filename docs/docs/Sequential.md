@@ -64,9 +64,6 @@
 | ylorrd| ![ylorrd](/colormaps/assets/images/colorbrewer/ylorrd.png) | ```cmaps.ylorrd``` | 9| 
 | purple_16| ![purple_16](/colormaps/assets/images/cubehelix/purple_16.png) | ```cmaps.purple_16``` | 16| 
 | red_16| ![red_16](/colormaps/assets/images/cubehelix/red_16.png) | ```cmaps.red_16``` | 16| 
-| BlAqGrYeOrRe| ![BlAqGrYeOrRe](/colormaps/assets/images/ncar_ncl/BlAqGrYeOrRe.png) | ```cmaps.BlAqGrYeOrRe``` | 100| 
-| BlAqGrYeOrReVi200| ![BlAqGrYeOrReVi200](/colormaps/assets/images/ncar_ncl/BlAqGrYeOrReVi200.png) | ```cmaps.BlAqGrYeOrReVi200``` | 200| 
-| BlGrYeOrReVi200| ![BlGrYeOrReVi200](/colormaps/assets/images/ncar_ncl/BlGrYeOrReVi200.png) | ```cmaps.BlGrYeOrReVi200``` | 200| 
 | CBR_wet| ![CBR_wet](/colormaps/assets/images/ncar_ncl/CBR_wet.png) | ```cmaps.CBR_wet``` | 11| 
 | b2_31| ![b2_31](/colormaps/assets/images/sciviz/b2_31.png) | ```cmaps.b2_31``` | 256| 
 | bl_11| ![bl_11](/colormaps/assets/images/sciviz/bl_11.png) | ```cmaps.bl_11``` | 256| 

@@ -8,6 +8,119 @@
 # Sequential Schemes
 {: .no_toc } 
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Cartocolors
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| aggrnyl| ![aggrnyl](/colormaps/assets/images/cartocolors/aggrnyl.png) | ```cmaps.aggrnyl``` | 7| 
+| agsunset| ![agsunset](/colormaps/assets/images/cartocolors/agsunset.png) | ```cmaps.agsunset``` | 7| 
+| blugrn| ![blugrn](/colormaps/assets/images/cartocolors/blugrn.png) | ```cmaps.blugrn``` | 7| 
+| bluyl| ![bluyl](/colormaps/assets/images/cartocolors/bluyl.png) | ```cmaps.bluyl``` | 7| 
+| brwnyl| ![brwnyl](/colormaps/assets/images/cartocolors/brwnyl.png) | ```cmaps.brwnyl``` | 7| 
+| burg| ![burg](/colormaps/assets/images/cartocolors/burg.png) | ```cmaps.burg``` | 7| 
+| burgyl| ![burgyl](/colormaps/assets/images/cartocolors/burgyl.png) | ```cmaps.burgyl``` | 7| 
+| darkmint| ![darkmint](/colormaps/assets/images/cartocolors/darkmint.png) | ```cmaps.darkmint``` | 7| 
+| emrld| ![emrld](/colormaps/assets/images/cartocolors/emrld.png) | ```cmaps.emrld``` | 7| 
+| magenta| ![magenta](/colormaps/assets/images/cartocolors/magenta.png) | ```cmaps.magenta``` | 7| 
+| mint| ![mint](/colormaps/assets/images/cartocolors/mint.png) | ```cmaps.mint``` | 7| 
+| oryel| ![oryel](/colormaps/assets/images/cartocolors/oryel.png) | ```cmaps.oryel``` | 7| 
+| peach| ![peach](/colormaps/assets/images/cartocolors/peach.png) | ```cmaps.peach``` | 7| 
+| pinkyl| ![pinkyl](/colormaps/assets/images/cartocolors/pinkyl.png) | ```cmaps.pinkyl``` | 7| 
+| purp| ![purp](/colormaps/assets/images/cartocolors/purp.png) | ```cmaps.purp``` | 7| 
+| purpor| ![purpor](/colormaps/assets/images/cartocolors/purpor.png) | ```cmaps.purpor``` | 7| 
+| redor| ![redor](/colormaps/assets/images/cartocolors/redor.png) | ```cmaps.redor``` | 7| 
+| sunset| ![sunset](/colormaps/assets/images/cartocolors/sunset.png) | ```cmaps.sunset``` | 7| 
+| sunsetdark| ![sunsetdark](/colormaps/assets/images/cartocolors/sunsetdark.png) | ```cmaps.sunsetdark``` | 7| 
+| teal| ![teal](/colormaps/assets/images/cartocolors/teal.png) | ```cmaps.teal``` | 7| 
+| tealgrn| ![tealgrn](/colormaps/assets/images/cartocolors/tealgrn.png) | ```cmaps.tealgrn``` | 7| 
+
+## Cmocean
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| algae| ![algae](/colormaps/assets/images/cmocean/algae.png) | ```cmaps.algae``` | 256| 
+| amp| ![amp](/colormaps/assets/images/cmocean/amp.png) | ```cmaps.amp``` | 256| 
+| deep| ![deep](/colormaps/assets/images/cmocean/deep.png) | ```cmaps.deep``` | 256| 
+| dense| ![dense](/colormaps/assets/images/cmocean/dense.png) | ```cmaps.dense``` | 256| 
+| gray| ![gray](/colormaps/assets/images/cmocean/gray.png) | ```cmaps.gray``` | 256| 
+| haline| ![haline](/colormaps/assets/images/cmocean/haline.png) | ```cmaps.haline``` | 256| 
+| ice| ![ice](/colormaps/assets/images/cmocean/ice.png) | ```cmaps.ice``` | 256| 
+| matter| ![matter](/colormaps/assets/images/cmocean/matter.png) | ```cmaps.matter``` | 256| 
+| oxy| ![oxy](/colormaps/assets/images/cmocean/oxy.png) | ```cmaps.oxy``` | 256| 
+| solar| ![solar](/colormaps/assets/images/cmocean/solar.png) | ```cmaps.solar``` | 256| 
+| speed| ![speed](/colormaps/assets/images/cmocean/speed.png) | ```cmaps.speed``` | 256| 
+| tempo| ![tempo](/colormaps/assets/images/cmocean/tempo.png) | ```cmaps.tempo``` | 256| 
+| thermal| ![thermal](/colormaps/assets/images/cmocean/thermal.png) | ```cmaps.thermal``` | 256| 
+| turbid| ![turbid](/colormaps/assets/images/cmocean/turbid.png) | ```cmaps.turbid``` | 256| 
+
+## Colorbrewer
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| blues| ![blues](/colormaps/assets/images/colorbrewer/blues.png) | ```cmaps.blues``` | 9| 
+| bupu| ![bupu](/colormaps/assets/images/colorbrewer/bupu.png) | ```cmaps.bupu``` | 9| 
+| bugn| ![bugn](/colormaps/assets/images/colorbrewer/bugn.png) | ```cmaps.bugn``` | 9| 
+| gnbu| ![gnbu](/colormaps/assets/images/colorbrewer/gnbu.png) | ```cmaps.gnbu``` | 9| 
+| greens| ![greens](/colormaps/assets/images/colorbrewer/greens.png) | ```cmaps.greens``` | 9| 
+| greys| ![greys](/colormaps/assets/images/colorbrewer/greys.png) | ```cmaps.greys``` | 9| 
+| oranges| ![oranges](/colormaps/assets/images/colorbrewer/oranges.png) | ```cmaps.oranges``` | 9| 
+| orrd| ![orrd](/colormaps/assets/images/colorbrewer/orrd.png) | ```cmaps.orrd``` | 9| 
+| pubu| ![pubu](/colormaps/assets/images/colorbrewer/pubu.png) | ```cmaps.pubu``` | 9| 
+| pubugn| ![pubugn](/colormaps/assets/images/colorbrewer/pubugn.png) | ```cmaps.pubugn``` | 9| 
+| purd| ![purd](/colormaps/assets/images/colorbrewer/purd.png) | ```cmaps.purd``` | 9| 
+| purples| ![purples](/colormaps/assets/images/colorbrewer/purples.png) | ```cmaps.purples``` | 9| 
+| rdpu| ![rdpu](/colormaps/assets/images/colorbrewer/rdpu.png) | ```cmaps.rdpu``` | 9| 
+| reds| ![reds](/colormaps/assets/images/colorbrewer/reds.png) | ```cmaps.reds``` | 9| 
+| ylgn| ![ylgn](/colormaps/assets/images/colorbrewer/ylgn.png) | ```cmaps.ylgn``` | 9| 
+| ylgnbu| ![ylgnbu](/colormaps/assets/images/colorbrewer/ylgnbu.png) | ```cmaps.ylgnbu``` | 9| 
+| ylorbr| ![ylorbr](/colormaps/assets/images/colorbrewer/ylorbr.png) | ```cmaps.ylorbr``` | 9| 
+| ylorrd| ![ylorrd](/colormaps/assets/images/colorbrewer/ylorrd.png) | ```cmaps.ylorrd``` | 9| 
+
+## NCAR NCL
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| NEO_modis_ndvi| ![NEO_modis_ndvi](/colormaps/assets/images/ncar_ncl/NEO_modis_ndvi.png) | ```cmaps.NEO_modis_ndvi``` | 256| 
+| WhiteBlue| ![WhiteBlue](/colormaps/assets/images/ncar_ncl/WhiteBlue.png) | ```cmaps.WhiteBlue``` | 254| 
+| WhiteGreen| ![WhiteGreen](/colormaps/assets/images/ncar_ncl/WhiteGreen.png) | ```cmaps.WhiteGreen``` | 254| 
+| WhiteYellowOrangeRed| ![WhiteYellowOrangeRed](/colormaps/assets/images/ncar_ncl/WhiteYellowOrangeRed.png) | ```cmaps.WhiteYellowOrangeRed``` | 254| 
+| gsdtol| ![gsdtol](/colormaps/assets/images/ncar_ncl/gsdtol.png) | ```cmaps.gsdtol``` | 31| 
+| gsltod| ![gsltod](/colormaps/assets/images/ncar_ncl/gsltod.png) | ```cmaps.gsltod``` | 31| 
+| sunshine_9lev| ![sunshine_9lev](/colormaps/assets/images/ncar_ncl/sunshine_9lev.png) | ```cmaps.sunshine_9lev``` | 10| 
+| matlab_hot| ![matlab_hot](/colormaps/assets/images/ncar_ncl/matlab_hot.png) | ```cmaps.matlab_hot``` | 64| 
+
+## Scientific
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| acton| ![acton](/colormaps/assets/images/scientific/acton.png) | ```cmaps.acton``` | 256| 
+| bamako| ![bamako](/colormaps/assets/images/scientific/bamako.png) | ```cmaps.bamako``` | 256| 
+| batlow| ![batlow](/colormaps/assets/images/scientific/batlow.png) | ```cmaps.batlow``` | 256| 
+| bilbao| ![bilbao](/colormaps/assets/images/scientific/bilbao.png) | ```cmaps.bilbao``` | 256| 
+| buda| ![buda](/colormaps/assets/images/scientific/buda.png) | ```cmaps.buda``` | 256| 
+| davos| ![davos](/colormaps/assets/images/scientific/davos.png) | ```cmaps.davos``` | 256| 
+| devon| ![devon](/colormaps/assets/images/scientific/devon.png) | ```cmaps.devon``` | 256| 
+| grayc| ![grayc](/colormaps/assets/images/scientific/grayc.png) | ```cmaps.grayc``` | 256| 
+| hawaii| ![hawaii](/colormaps/assets/images/scientific/hawaii.png) | ```cmaps.hawaii``` | 256| 
+| imola| ![imola](/colormaps/assets/images/scientific/imola.png) | ```cmaps.imola``` | 256| 
+| lajolla| ![lajolla](/colormaps/assets/images/scientific/lajolla.png) | ```cmaps.lajolla``` | 256| 
+| lapaz| ![lapaz](/colormaps/assets/images/scientific/lapaz.png) | ```cmaps.lapaz``` | 256| 
+| nuuk| ![nuuk](/colormaps/assets/images/scientific/nuuk.png) | ```cmaps.nuuk``` | 256| 
+| oleron| ![oleron](/colormaps/assets/images/scientific/oleron.png) | ```cmaps.oleron``` | 256| 
+| oslo| ![oslo](/colormaps/assets/images/scientific/oslo.png) | ```cmaps.oslo``` | 256| 
+| tokyo| ![tokyo](/colormaps/assets/images/scientific/tokyo.png) | ```cmaps.tokyo``` | 256| 
+| turku| ![turku](/colormaps/assets/images/scientific/turku.png) | ```cmaps.turku``` | 256| 
+
+## SciViz
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | b2_31| ![b2_31](/colormaps/assets/images/sciviz/b2_31.png) | ```cmaps.b2_31``` | 256| 

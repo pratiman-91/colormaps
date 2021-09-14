@@ -22,6 +22,8 @@
  ``` 
 
 ## Sequential Schemes
+
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | blues| ![blues](/colormaps/assets/images/colorbrewer/blues.png) | ```cmaps.blues``` | 9| 
@@ -43,7 +45,10 @@
 | ylorbr| ![ylorbr](/colormaps/assets/images/colorbrewer/ylorbr.png) | ```cmaps.ylorbr``` | 9| 
 | ylorrd| ![ylorrd](/colormaps/assets/images/colorbrewer/ylorrd.png) | ```cmaps.ylorrd``` | 9| 
 
+
 ## Diverging Schemes
+
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | brbg| ![brbg](/colormaps/assets/images/colorbrewer/brbg.png) | ```cmaps.brbg``` | 9| 
@@ -57,6 +62,8 @@
 | spectral| ![spectral](/colormaps/assets/images/colorbrewer/spectral.png) | ```cmaps.spectral``` | 9| 
 
 ## Qualitative Schemes
+
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | accent| ![accent](/colormaps/assets/images/colorbrewer/accent.png) | ```cmaps.accent``` | 8| 
@@ -69,6 +76,8 @@
 | set3| ![set3](/colormaps/assets/images/colorbrewer/set3.png) | ```cmaps.set3``` | 9| 
 
 ## Supplementary Schemes
+
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | accent_3| ![accent_3](/colormaps/assets/images/colorbrewer/accent_3.png) | ```cmaps.accent_3``` | 3| 

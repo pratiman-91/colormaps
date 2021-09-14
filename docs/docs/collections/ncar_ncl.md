@@ -7,16 +7,31 @@
 --- 
 
 # NCAR NCL
-{: .no_toc } 
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
  ```python 
  import colormaps as cmaps 
  ``` 
 
-
+## Rainbow
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | BkBlAqGrYeOrReViWh200| ![BkBlAqGrYeOrReViWh200](/colormaps/assets/images/ncar_ncl/BkBlAqGrYeOrReViWh200.png) | ```cmaps.BkBlAqGrYeOrReViWh200``` | 200| 
+
+
+
+
+## Extras
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
 | BlAqGrWh2YeOrReVi22| ![BlAqGrWh2YeOrReVi22](/colormaps/assets/images/ncar_ncl/BlAqGrWh2YeOrReVi22.png) | ```cmaps.BlAqGrWh2YeOrReVi22``` | 22| 
 | BlAqGrYeOrRe| ![BlAqGrYeOrRe](/colormaps/assets/images/ncar_ncl/BlAqGrYeOrRe.png) | ```cmaps.BlAqGrYeOrRe``` | 100| 
 | BlAqGrYeOrReVi200| ![BlAqGrYeOrReVi200](/colormaps/assets/images/ncar_ncl/BlAqGrYeOrReVi200.png) | ```cmaps.BlAqGrYeOrReVi200``` | 200| 

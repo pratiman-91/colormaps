@@ -21,6 +21,50 @@
  import colormaps as cmaps 
  ``` 
 
+## Sequential Schemes
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| GSFC_landsat_udf_density| ![GSFC_landsat_udf_density](/colormaps/assets/images/ncar_ncl/GSFC_landsat_udf_density.png) | ```cmaps.GSFC_landsat_udf_density``` | 11| 
+| NEO_modis_ndvi| ![NEO_modis_ndvi](/colormaps/assets/images/ncar_ncl/NEO_modis_ndvi.png) | ```cmaps.NEO_modis_ndvi``` | 256| 
+| NOC_ndvi| ![NOC_ndvi](/colormaps/assets/images/ncar_ncl/NOC_ndvi.png) | ```cmaps.NOC_ndvi``` | 253| 
+| WhiteBlue| ![WhiteBlue](/colormaps/assets/images/ncar_ncl/WhiteBlue.png) | ```cmaps.WhiteBlue``` | 254| 
+| WhiteGreen| ![WhiteGreen](/colormaps/assets/images/ncar_ncl/WhiteGreen.png) | ```cmaps.WhiteGreen``` | 254| 
+| WhiteYellowOrangeRed| ![WhiteYellowOrangeRed](/colormaps/assets/images/ncar_ncl/WhiteYellowOrangeRed.png) | ```cmaps.WhiteYellowOrangeRed``` | 254| 
+| gsdtol| ![gsdtol](/colormaps/assets/images/ncar_ncl/gsdtol.png) | ```cmaps.gsdtol``` | 31| 
+| gsltod| ![gsltod](/colormaps/assets/images/ncar_ncl/gsltod.png) | ```cmaps.gsltod``` | 31| 
+
+## Divergent Schemes
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| amwg_blueyellowred| ![amwg_blueyellowred](/colormaps/assets/images/ncar_ncl/amwg_blueyellowred.png) | ```cmaps.amwg_blueyellowred``` | 16| 
+| BlRe| ![BlRe](/colormaps/assets/images/ncar_ncl/BlRe.png) | ```cmaps.BlRe``` | 96| 
+| BlWhRe| ![BlWhRe](/colormaps/assets/images/ncar_ncl/BlWhRe.png) | ```cmaps.BlWhRe``` | 101| 
+| BlueRed| ![BlueRed](/colormaps/assets/images/ncar_ncl/BlueRed.png) | ```cmaps.BlueRed``` | 252| 
+| BlueRedGray| ![BlueRedGray](/colormaps/assets/images/ncar_ncl/BlueRedGray.png) | ```cmaps.BlueRedGray``` | 253| 
+| BlueWhiteOrangeRed| ![BlueWhiteOrangeRed](/colormaps/assets/images/ncar_ncl/BlueWhiteOrangeRed.png) | ```cmaps.BlueWhiteOrangeRed``` | 254| 
+| BlueYellowRed| ![BlueYellowRed](/colormaps/assets/images/ncar_ncl/BlueYellowRed.png) | ```cmaps.BlueYellowRed``` | 254| 
+| GrayWhiteGray| ![GrayWhiteGray](/colormaps/assets/images/ncar_ncl/GrayWhiteGray.png) | ```cmaps.GrayWhiteGray``` | 254| 
+| GreenYellow| ![GreenYellow](/colormaps/assets/images/ncar_ncl/GreenYellow.png) | ```cmaps.GreenYellow``` | 252| 
+| NEO_div_vegetation_a| ![NEO_div_vegetation_a](/colormaps/assets/images/ncar_ncl/NEO_div_vegetation_a.png) | ```cmaps.NEO_div_vegetation_a``` | 256| 
+| NEO_div_vegetation_b| ![NEO_div_vegetation_b](/colormaps/assets/images/ncar_ncl/NEO_div_vegetation_b.png) | ```cmaps.NEO_div_vegetation_b``` | 256| 
+| NEO_div_vegetation_c| ![NEO_div_vegetation_c](/colormaps/assets/images/ncar_ncl/NEO_div_vegetation_c.png) | ```cmaps.NEO_div_vegetation_c``` | 256| 
+| UKM_hadcrut| ![UKM_hadcrut](/colormaps/assets/images/ncar_ncl/UKM_hadcrut.png) | ```cmaps.UKM_hadcrut``` | 12| 
+| WhBlReWh| ![WhBlReWh](/colormaps/assets/images/ncar_ncl/WhBlReWh.png) | ```cmaps.WhBlReWh``` | 100| 
+| cmp_b2r| ![cmp_b2r](/colormaps/assets/images/ncar_ncl/cmp_b2r.png) | ```cmaps.cmp_b2r``` | 64| 
+| cmp_flux| ![cmp_flux](/colormaps/assets/images/ncar_ncl/cmp_flux.png) | ```cmaps.cmp_flux``` | 22| 
+| drought_severity| ![drought_severity](/colormaps/assets/images/ncar_ncl/drought_severity.png) | ```cmaps.drought_severity``` | 7|
+| hotcold_18lev| ![hotcold_18lev](/colormaps/assets/images/ncar_ncl/hotcold_18lev.png) | ```cmaps.hotcold_18lev``` | 19| 
+| hotcolr_19lev| ![hotcolr_19lev](/colormaps/assets/images/ncar_ncl/hotcolr_19lev.png) | ```cmaps.hotcolr_19lev``` | 20| 
+
+## Qualitative Schemes
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| NMCRef| ![NMCRef](/colormaps/assets/images/ncar_ncl/NMCRef.png) | ```cmaps.NMCRef``` | 16| 
+| NMCVel| ![NMCVel](/colormaps/assets/images/ncar_ncl/NMCVel.png) | ```cmaps.NMCVel``` | 17| 
+
 ## Rainbow
 
 
@@ -36,11 +80,6 @@
 | GMT_wysiwygcont| ![GMT_wysiwygcont](/colormaps/assets/images/ncar_ncl/GMT_wysiwygcont.png) | ```cmaps.GMT_wysiwygcont``` | 200| 
 | matlab_hsv| ![matlab_hsv](/colormaps/assets/images/ncar_ncl/matlab_hsv.png) | ```cmaps.matlab_hsv``` | 64| 
 | matlab_jet| ![matlab_jet](/colormaps/assets/images/ncar_ncl/matlab_jet.png) | ```cmaps.matlab_jet``` | 64| 
-| MPL_gist_ncar| ![MPL_gist_ncar](/colormaps/assets/images/ncar_ncl/MPL_gist_ncar.png) | ```cmaps.MPL_gist_ncar``` | 128| 
-| MPL_gist_rainbow| ![MPL_gist_rainbow](/colormaps/assets/images/ncar_ncl/MPL_gist_rainbow.png) | ```cmaps.MPL_gist_rainbow``` | 128| 
-| MPL_hsv| ![MPL_hsv](/colormaps/assets/images/ncar_ncl/MPL_hsv.png) | ```cmaps.MPL_hsv``` | 128| 
-| MPL_jet| ![MPL_jet](/colormaps/assets/images/ncar_ncl/MPL_jet.png) | ```cmaps.MPL_jet``` | 128| 
-| MPL_Spectral| ![MPL_Spectral](/colormaps/assets/images/ncar_ncl/MPL_Spectral.png) | ```cmaps.MPL_Spectral``` | 128| 
 | NCV_bright| ![NCV_bright](/colormaps/assets/images/ncar_ncl/NCV_bright.png) | ```cmaps.NCV_bright``` | 256| 
 | NCV_jaisnd| ![NCV_jaisnd](/colormaps/assets/images/ncar_ncl/NCV_jaisnd.png) | ```cmaps.NCV_jaisnd``` | 256| 
 | NCV_jet| ![NCV_jet](/colormaps/assets/images/ncar_ncl/NCV_jet.png) | ```cmaps.NCV_jet``` | 256| 
@@ -64,6 +103,7 @@
 | WhiteBlueGreenYellowRed| ![WhiteBlueGreenYellowRed](/colormaps/assets/images/ncar_ncl/WhiteBlueGreenYellowRed.png) | ```cmaps.WhiteBlueGreenYellowRed``` | 254| 
 | WhViBlGrYeOrRe| ![WhViBlGrYeOrRe](/colormaps/assets/images/ncar_ncl/WhViBlGrYeOrRe.png) | ```cmaps.WhViBlGrYeOrRe``` | 101| 
 | WhViBlGrYeOrReWh| ![WhViBlGrYeOrReWh](/colormaps/assets/images/ncar_ncl/WhViBlGrYeOrReWh.png) | ```cmaps.WhViBlGrYeOrReWh``` | 101| 
+| wh_bl_gr_ye_re| ![wh_bl_gr_ye_re](/colormaps/assets/images/ncar_ncl/wh_bl_gr_ye_re.png) | ```cmaps.wh_bl_gr_ye_re``` | 199| 
 
 ## Small Rainbow
 
@@ -113,29 +153,6 @@
 | OceanLakeLandSnow| ![OceanLakeLandSnow](/colormaps/assets/images/ncar_ncl/OceanLakeLandSnow.png) | ```cmaps.OceanLakeLandSnow``` | 254|
 | topo_15lev| ![topo_15lev](/colormaps/assets/images/ncar_ncl/topo_15lev.png) | ```cmaps.topo_15lev``` | 16| 
 
-## Oceanography
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-| cmocean_algae| ![cmocean_algae](/colormaps/assets/images/ncar_ncl/cmocean_algae.png) | ```cmaps.cmocean_algae``` | 256| 
-| cmocean_amp| ![cmocean_amp](/colormaps/assets/images/ncar_ncl/cmocean_amp.png) | ```cmaps.cmocean_amp``` | 256| 
-| cmocean_balance| ![cmocean_balance](/colormaps/assets/images/ncar_ncl/cmocean_balance.png) | ```cmaps.cmocean_balance``` | 256| 
-| cmocean_curl| ![cmocean_curl](/colormaps/assets/images/ncar_ncl/cmocean_curl.png) | ```cmaps.cmocean_curl``` | 256| 
-| cmocean_delta| ![cmocean_delta](/colormaps/assets/images/ncar_ncl/cmocean_delta.png) | ```cmaps.cmocean_delta``` | 256| 
-| cmocean_dense| ![cmocean_dense](/colormaps/assets/images/ncar_ncl/cmocean_dense.png) | ```cmaps.cmocean_dense``` | 256| 
-| cmocean_gray| ![cmocean_gray](/colormaps/assets/images/ncar_ncl/cmocean_gray.png) | ```cmaps.cmocean_gray``` | 256| 
-| cmocean_haline| ![cmocean_haline](/colormaps/assets/images/ncar_ncl/cmocean_haline.png) | ```cmaps.cmocean_haline``` | 256| 
-| cmocean_ice| ![cmocean_ice](/colormaps/assets/images/ncar_ncl/cmocean_ice.png) | ```cmaps.cmocean_ice``` | 256| 
-| cmocean_matter| ![cmocean_matter](/colormaps/assets/images/ncar_ncl/cmocean_matter.png) | ```cmaps.cmocean_matter``` | 256| 
-| cmocean_oxy| ![cmocean_oxy](/colormaps/assets/images/ncar_ncl/cmocean_oxy.png) | ```cmaps.cmocean_oxy``` | 256| 
-| cmocean_phase| ![cmocean_phase](/colormaps/assets/images/ncar_ncl/cmocean_phase.png) | ```cmaps.cmocean_phase``` | 256| 
-| cmocean_solar| ![cmocean_solar](/colormaps/assets/images/ncar_ncl/cmocean_solar.png) | ```cmaps.cmocean_solar``` | 256| 
-| cmocean_speed| ![cmocean_speed](/colormaps/assets/images/ncar_ncl/cmocean_speed.png) | ```cmaps.cmocean_speed``` | 256| 
-| cmocean_tempo| ![cmocean_tempo](/colormaps/assets/images/ncar_ncl/cmocean_tempo.png) | ```cmaps.cmocean_tempo``` | 256| 
-| cmocean_thermal| ![cmocean_thermal](/colormaps/assets/images/ncar_ncl/cmocean_thermal.png) | ```cmaps.cmocean_thermal``` | 256| 
-| cmocean_turbid| ![cmocean_turbid](/colormaps/assets/images/ncar_ncl/cmocean_turbid.png) | ```cmaps.cmocean_turbid``` | 256| 
-
 ## Aid in Color Blindness
 
 
@@ -149,9 +166,6 @@
 | cb_9step| ![cb_9step](/colormaps/assets/images/ncar_ncl/cb_9step.png) | ```cmaps.cb_9step``` | 78| 
 | cb_rainbow| ![cb_rainbow](/colormaps/assets/images/ncar_ncl/cb_rainbow.png) | ```cmaps.cb_rainbow``` | 241| 
 | cb_rainbow_inv| ![cb_rainbow_inv](/colormaps/assets/images/ncar_ncl/cb_rainbow_inv.png) | ```cmaps.cb_rainbow_inv``` | 241| 
-| CBR_coldhot| ![CBR_coldhot](/colormaps/assets/images/ncar_ncl/CBR_coldhot.png) | ```cmaps.CBR_coldhot``` | 11| 
-| CBR_drywet| ![CBR_drywet](/colormaps/assets/images/ncar_ncl/CBR_drywet.png) | ```cmaps.CBR_drywet``` | 11| 
-| CBR_set3| ![CBR_set3](/colormaps/assets/images/ncar_ncl/CBR_set3.png) | ```cmaps.CBR_set3``` | 12| 
 | cividis| ![cividis](/colormaps/assets/images/ncar_ncl/cividis.png) | ```cmaps.cividis``` | 256| 
 | GreenMagenta16| ![GreenMagenta16](/colormaps/assets/images/ncar_ncl/GreenMagenta16.png) | ```cmaps.GreenMagenta16``` | 16| 
 | posneg_1| ![posneg_1](/colormaps/assets/images/ncar_ncl/posneg_1.png) | ```cmaps.posneg_1``` | 19| 
@@ -159,136 +173,31 @@
 | srip_reanalysis| ![srip_reanalysis](/colormaps/assets/images/ncar_ncl/srip_reanalysis.png) | ```cmaps.srip_reanalysis``` | 19| 
 | StepSeq25| ![StepSeq25](/colormaps/assets/images/ncar_ncl/StepSeq25.png) | ```cmaps.StepSeq25``` | 25| 
 
-## MeteoSwiss
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Blue/Red
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Blue/Green
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Red/Orange
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Red/Green
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Green/Yellow
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Red/Purple
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Blue/Purple 	
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Green/Purple 
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Brown/Copper
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Blue/Yellow/Red 	
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Blue 	
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Purple 	
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Green 	
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Gray
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Banded 	
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-## Faded 	
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
 
 ## Circular 	
 
 
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
+| circular_0| ![circular_0](/colormaps/assets/images/ncar_ncl/circular_0.png) | ```cmaps.circular_0``` | 18| 
+| circular_1| ![circular_1](/colormaps/assets/images/ncar_ncl/circular_1.png) | ```cmaps.circular_1``` | 12| 
+| circular_2| ![circular_2](/colormaps/assets/images/ncar_ncl/circular_2.png) | ```cmaps.circular_2``` | 24| 
+| gscyclic| ![gscyclic](/colormaps/assets/images/ncar_ncl/gscyclic.png) | ```cmaps.gscyclic``` | 6| 
 
 ## Miscellaneous 	
 
 
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
-
-## Vegetation
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## White-in-the-middle 	
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-
-## Starts-with-white 	
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
+| default| ![default](/colormaps/assets/images/ncar_ncl/default.png) | ```cmaps.default``` | 32| 
+| detail| ![detail](/colormaps/assets/images/ncar_ncl/detail.png) | ```cmaps.detail``` | 254| 
+| extrema| ![extrema](/colormaps/assets/images/ncar_ncl/extrema.png) | ```cmaps.extrema``` | 254| 
+| gauss3| ![gauss3](/colormaps/assets/images/ncar_ncl/gauss3.png) | ```cmaps.gauss3``` | 254|
+| helix| ![helix](/colormaps/assets/images/ncar_ncl/helix.png) | ```cmaps.helix``` | 254| 
+| helix1| ![helix1](/colormaps/assets/images/ncar_ncl/helix1.png) | ```cmaps.helix1``` | 254| 
+| hlu_default| ![hlu_default](/colormaps/assets/images/ncar_ncl/hlu_default.png) | ```cmaps.hlu_default``` | 32| 
+| hotres| ![hotres](/colormaps/assets/images/ncar_ncl/hotres.png) | ```cmaps.hotres``` | 254| 
+| lithology| ![lithology](/colormaps/assets/images/ncar_ncl/lithology.png) | ```cmaps.lithology``` | 213| 
 
 ## GMT 	
 
@@ -325,73 +234,6 @@
 | grads_default| ![grads_default](/colormaps/assets/images/ncar_ncl/grads_default.png) | ```cmaps.grads_default``` | 14| 
 | grads_rainbow| ![grads_rainbow](/colormaps/assets/images/ncar_ncl/grads_rainbow.png) | ```cmaps.grads_rainbow``` | 13| 
 
-## matplotlib
-
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-| MPL_Accent| ![MPL_Accent](/colormaps/assets/images/ncar_ncl/MPL_Accent.png) | ```cmaps.MPL_Accent``` | 128| 
-| MPL_Blues| ![MPL_Blues](/colormaps/assets/images/ncar_ncl/MPL_Blues.png) | ```cmaps.MPL_Blues``` | 128| 
-| MPL_BuGn| ![MPL_BuGn](/colormaps/assets/images/ncar_ncl/MPL_BuGn.png) | ```cmaps.MPL_BuGn``` | 128| 
-| MPL_BuPu| ![MPL_BuPu](/colormaps/assets/images/ncar_ncl/MPL_BuPu.png) | ```cmaps.MPL_BuPu``` | 128| 
-| MPL_Dark2| ![MPL_Dark2](/colormaps/assets/images/ncar_ncl/MPL_Dark2.png) | ```cmaps.MPL_Dark2``` | 128| 
-| MPL_GnBu| ![MPL_GnBu](/colormaps/assets/images/ncar_ncl/MPL_GnBu.png) | ```cmaps.MPL_GnBu``` | 128| 
-| MPL_Greens| ![MPL_Greens](/colormaps/assets/images/ncar_ncl/MPL_Greens.png) | ```cmaps.MPL_Greens``` | 128| 
-| MPL_Greys| ![MPL_Greys](/colormaps/assets/images/ncar_ncl/MPL_Greys.png) | ```cmaps.MPL_Greys``` | 128| 
-| MPL_OrRd| ![MPL_OrRd](/colormaps/assets/images/ncar_ncl/MPL_OrRd.png) | ```cmaps.MPL_OrRd``` | 128| 
-| MPL_Oranges| ![MPL_Oranges](/colormaps/assets/images/ncar_ncl/MPL_Oranges.png) | ```cmaps.MPL_Oranges``` | 128| 
-| MPL_PRGn| ![MPL_PRGn](/colormaps/assets/images/ncar_ncl/MPL_PRGn.png) | ```cmaps.MPL_PRGn``` | 128| 
-| MPL_Paired| ![MPL_Paired](/colormaps/assets/images/ncar_ncl/MPL_Paired.png) | ```cmaps.MPL_Paired``` | 128| 
-| MPL_Pastel1| ![MPL_Pastel1](/colormaps/assets/images/ncar_ncl/MPL_Pastel1.png) | ```cmaps.MPL_Pastel1``` | 128| 
-| MPL_Pastel2| ![MPL_Pastel2](/colormaps/assets/images/ncar_ncl/MPL_Pastel2.png) | ```cmaps.MPL_Pastel2``` | 128| 
-| MPL_PiYG| ![MPL_PiYG](/colormaps/assets/images/ncar_ncl/MPL_PiYG.png) | ```cmaps.MPL_PiYG``` | 128| 
-| MPL_PuBu| ![MPL_PuBu](/colormaps/assets/images/ncar_ncl/MPL_PuBu.png) | ```cmaps.MPL_PuBu``` | 128| 
-| MPL_PuBuGn| ![MPL_PuBuGn](/colormaps/assets/images/ncar_ncl/MPL_PuBuGn.png) | ```cmaps.MPL_PuBuGn``` | 128| 
-| MPL_PuOr| ![MPL_PuOr](/colormaps/assets/images/ncar_ncl/MPL_PuOr.png) | ```cmaps.MPL_PuOr``` | 128| 
-| MPL_PuRd| ![MPL_PuRd](/colormaps/assets/images/ncar_ncl/MPL_PuRd.png) | ```cmaps.MPL_PuRd``` | 128| 
-| MPL_Purples| ![MPL_Purples](/colormaps/assets/images/ncar_ncl/MPL_Purples.png) | ```cmaps.MPL_Purples``` | 128| 
-| MPL_RdBu| ![MPL_RdBu](/colormaps/assets/images/ncar_ncl/MPL_RdBu.png) | ```cmaps.MPL_RdBu``` | 128| 
-| MPL_RdGy| ![MPL_RdGy](/colormaps/assets/images/ncar_ncl/MPL_RdGy.png) | ```cmaps.MPL_RdGy``` | 128| 
-| MPL_RdPu| ![MPL_RdPu](/colormaps/assets/images/ncar_ncl/MPL_RdPu.png) | ```cmaps.MPL_RdPu``` | 128| 
-| MPL_RdYlBu| ![MPL_RdYlBu](/colormaps/assets/images/ncar_ncl/MPL_RdYlBu.png) | ```cmaps.MPL_RdYlBu``` | 128| 
-| MPL_RdYlGn| ![MPL_RdYlGn](/colormaps/assets/images/ncar_ncl/MPL_RdYlGn.png) | ```cmaps.MPL_RdYlGn``` | 128| 
-| MPL_Reds| ![MPL_Reds](/colormaps/assets/images/ncar_ncl/MPL_Reds.png) | ```cmaps.MPL_Reds``` | 128| 
-| MPL_Set1| ![MPL_Set1](/colormaps/assets/images/ncar_ncl/MPL_Set1.png) | ```cmaps.MPL_Set1``` | 128| 
-| MPL_Set2| ![MPL_Set2](/colormaps/assets/images/ncar_ncl/MPL_Set2.png) | ```cmaps.MPL_Set2``` | 128| 
-| MPL_Set3| ![MPL_Set3](/colormaps/assets/images/ncar_ncl/MPL_Set3.png) | ```cmaps.MPL_Set3``` | 128| 
-| MPL_StepSeq| ![MPL_StepSeq](/colormaps/assets/images/ncar_ncl/MPL_StepSeq.png) | ```cmaps.MPL_StepSeq``` | 128| 
-| MPL_YlGn| ![MPL_YlGn](/colormaps/assets/images/ncar_ncl/MPL_YlGn.png) | ```cmaps.MPL_YlGn``` | 128| 
-| MPL_YlGnBu| ![MPL_YlGnBu](/colormaps/assets/images/ncar_ncl/MPL_YlGnBu.png) | ```cmaps.MPL_YlGnBu``` | 128| 
-| MPL_YlOrBr| ![MPL_YlOrBr](/colormaps/assets/images/ncar_ncl/MPL_YlOrBr.png) | ```cmaps.MPL_YlOrBr``` | 128| 
-| MPL_YlOrRd| ![MPL_YlOrRd](/colormaps/assets/images/ncar_ncl/MPL_YlOrRd.png) | ```cmaps.MPL_YlOrRd``` | 128| 
-| MPL_afmhot| ![MPL_afmhot](/colormaps/assets/images/ncar_ncl/MPL_afmhot.png) | ```cmaps.MPL_afmhot``` | 128| 
-| MPL_autumn| ![MPL_autumn](/colormaps/assets/images/ncar_ncl/MPL_autumn.png) | ```cmaps.MPL_autumn``` | 128| 
-| MPL_bone| ![MPL_bone](/colormaps/assets/images/ncar_ncl/MPL_bone.png) | ```cmaps.MPL_bone``` | 128| 
-| MPL_brg| ![MPL_brg](/colormaps/assets/images/ncar_ncl/MPL_brg.png) | ```cmaps.MPL_brg``` | 128| 
-| MPL_bwr| ![MPL_bwr](/colormaps/assets/images/ncar_ncl/MPL_bwr.png) | ```cmaps.MPL_bwr``` | 128| 
-| MPL_cool| ![MPL_cool](/colormaps/assets/images/ncar_ncl/MPL_cool.png) | ```cmaps.MPL_cool``` | 128| 
-| MPL_coolwarm| ![MPL_coolwarm](/colormaps/assets/images/ncar_ncl/MPL_coolwarm.png) | ```cmaps.MPL_coolwarm``` | 128| 
-| MPL_copper| ![MPL_copper](/colormaps/assets/images/ncar_ncl/MPL_copper.png) | ```cmaps.MPL_copper``` | 128| 
-| MPL_cubehelix| ![MPL_cubehelix](/colormaps/assets/images/ncar_ncl/MPL_cubehelix.png) | ```cmaps.MPL_cubehelix``` | 128| 
-| MPL_flag| ![MPL_flag](/colormaps/assets/images/ncar_ncl/MPL_flag.png) | ```cmaps.MPL_flag``` | 128| 
-| MPL_gist_gray| ![MPL_gist_gray](/colormaps/assets/images/ncar_ncl/MPL_gist_gray.png) | ```cmaps.MPL_gist_gray``` | 128| 
-| MPL_gist_heat| ![MPL_gist_heat](/colormaps/assets/images/ncar_ncl/MPL_gist_heat.png) | ```cmaps.MPL_gist_heat``` | 128| 
-| MPL_gist_stern| ![MPL_gist_stern](/colormaps/assets/images/ncar_ncl/MPL_gist_stern.png) | ```cmaps.MPL_gist_stern``` | 128| 
-| MPL_gist_yarg| ![MPL_gist_yarg](/colormaps/assets/images/ncar_ncl/MPL_gist_yarg.png) | ```cmaps.MPL_gist_yarg``` | 128| 
-| MPL_gnuplot| ![MPL_gnuplot](/colormaps/assets/images/ncar_ncl/MPL_gnuplot.png) | ```cmaps.MPL_gnuplot``` | 128| 
-| MPL_gnuplot2| ![MPL_gnuplot2](/colormaps/assets/images/ncar_ncl/MPL_gnuplot2.png) | ```cmaps.MPL_gnuplot2``` | 128| 
-| MPL_hot| ![MPL_hot](/colormaps/assets/images/ncar_ncl/MPL_hot.png) | ```cmaps.MPL_hot``` | 128| 
-| MPL_pink| ![MPL_pink](/colormaps/assets/images/ncar_ncl/MPL_pink.png) | ```cmaps.MPL_pink``` | 128| 
-| MPL_prism| ![MPL_prism](/colormaps/assets/images/ncar_ncl/MPL_prism.png) | ```cmaps.MPL_prism``` | 128| 
-| MPL_rainbow| ![MPL_rainbow](/colormaps/assets/images/ncar_ncl/MPL_rainbow.png) | ```cmaps.MPL_rainbow``` | 128| 
-| MPL_s3pcpn| ![MPL_s3pcpn](/colormaps/assets/images/ncar_ncl/MPL_s3pcpn.png) | ```cmaps.MPL_s3pcpn``` | 128| 
-| MPL_s3pcpn_l| ![MPL_s3pcpn_l](/colormaps/assets/images/ncar_ncl/MPL_s3pcpn_l.png) | ```cmaps.MPL_s3pcpn_l``` | 128| 
-| MPL_seismic| ![MPL_seismic](/colormaps/assets/images/ncar_ncl/MPL_seismic.png) | ```cmaps.MPL_seismic``` | 128| 
-| MPL_spring| ![MPL_spring](/colormaps/assets/images/ncar_ncl/MPL_spring.png) | ```cmaps.MPL_spring``` | 128| 
-| MPL_sstanom| ![MPL_sstanom](/colormaps/assets/images/ncar_ncl/MPL_sstanom.png) | ```cmaps.MPL_sstanom``` | 128| 
-| MPL_summer| ![MPL_summer](/colormaps/assets/images/ncar_ncl/MPL_summer.png) | ```cmaps.MPL_summer``` | 128| 
-| MPL_viridis| ![MPL_viridis](/colormaps/assets/images/ncar_ncl/MPL_viridis.png) | ```cmaps.MPL_viridis``` | 256| 
-| MPL_winter| ![MPL_winter](/colormaps/assets/images/ncar_ncl/MPL_winter.png) | ```cmaps.MPL_winter``` | 128| 
 
 ## Ncview 	
 
@@ -418,60 +260,20 @@
 | SVG_foggy_sunrise| ![SVG_foggy_sunrise](/colormaps/assets/images/ncar_ncl/SVG_foggy_sunrise.png) | ```cmaps.SVG_foggy_sunrise``` | 220| 
 | SVG_fs2006| ![SVG_fs2006](/colormaps/assets/images/ncar_ncl/SVG_fs2006.png) | ```cmaps.SVG_fs2006``` | 220| 
 
-## ColorBrewer
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-| CBR_wet| ![CBR_wet](/colormaps/assets/images/ncar_ncl/CBR_wet.png) | ```cmaps.CBR_wet``` | 11| 
-| CBR_coldhot| ![CBR_coldhot](/colormaps/assets/images/ncar_ncl/CBR_coldhot.png) | ```cmaps.CBR_coldhot``` | 11| 
-| CBR_drywet| ![CBR_drywet](/colormaps/assets/images/ncar_ncl/CBR_drywet.png) | ```cmaps.CBR_drywet``` | 11| 
-| CBR_set3| ![CBR_set3](/colormaps/assets/images/ncar_ncl/CBR_set3.png) | ```cmaps.CBR_set3``` | 12| 
 
 
-| BlRe| ![BlRe](/colormaps/assets/images/ncar_ncl/BlRe.png) | ```cmaps.BlRe``` | 96| 
-| BlWhRe| ![BlWhRe](/colormaps/assets/images/ncar_ncl/BlWhRe.png) | ```cmaps.BlWhRe``` | 101| 
-| BlueRed| ![BlueRed](/colormaps/assets/images/ncar_ncl/BlueRed.png) | ```cmaps.BlueRed``` | 252| 
-| BlueRedGray| ![BlueRedGray](/colormaps/assets/images/ncar_ncl/BlueRedGray.png) | ```cmaps.BlueRedGray``` | 253| 
-| BlueWhiteOrangeRed| ![BlueWhiteOrangeRed](/colormaps/assets/images/ncar_ncl/BlueWhiteOrangeRed.png) | ```cmaps.BlueWhiteOrangeRed``` | 254| 
-| BlueYellowRed| ![BlueYellowRed](/colormaps/assets/images/ncar_ncl/BlueYellowRed.png) | ```cmaps.BlueYellowRed``` | 254| 
 
-| GSFC_landsat_udf_density| ![GSFC_landsat_udf_density](/colormaps/assets/images/ncar_ncl/GSFC_landsat_udf_density.png) | ```cmaps.GSFC_landsat_udf_density``` | 11| 
-| GrayWhiteGray| ![GrayWhiteGray](/colormaps/assets/images/ncar_ncl/GrayWhiteGray.png) | ```cmaps.GrayWhiteGray``` | 254| 
-| GreenYellow| ![GreenYellow](/colormaps/assets/images/ncar_ncl/GreenYellow.png) | ```cmaps.GreenYellow``` | 252| 
-| NEO_div_vegetation_a| ![NEO_div_vegetation_a](/colormaps/assets/images/ncar_ncl/NEO_div_vegetation_a.png) | ```cmaps.NEO_div_vegetation_a``` | 256| 
-| NEO_div_vegetation_b| ![NEO_div_vegetation_b](/colormaps/assets/images/ncar_ncl/NEO_div_vegetation_b.png) | ```cmaps.NEO_div_vegetation_b``` | 256| 
-| NEO_div_vegetation_c| ![NEO_div_vegetation_c](/colormaps/assets/images/ncar_ncl/NEO_div_vegetation_c.png) | ```cmaps.NEO_div_vegetation_c``` | 256| 
-| NEO_modis_ndvi| ![NEO_modis_ndvi](/colormaps/assets/images/ncar_ncl/NEO_modis_ndvi.png) | ```cmaps.NEO_modis_ndvi``` | 256| 
-| NMCRef| ![NMCRef](/colormaps/assets/images/ncar_ncl/NMCRef.png) | ```cmaps.NMCRef``` | 16| 
-| NMCVel| ![NMCVel](/colormaps/assets/images/ncar_ncl/NMCVel.png) | ```cmaps.NMCVel``` | 17| 
-| NOC_ndvi| ![NOC_ndvi](/colormaps/assets/images/ncar_ncl/NOC_ndvi.png) | ```cmaps.NOC_ndvi``` | 253| 
-| UKM_hadcrut| ![UKM_hadcrut](/colormaps/assets/images/ncar_ncl/UKM_hadcrut.png) | ```cmaps.UKM_hadcrut``` | 12| 
-| WhBlReWh| ![WhBlReWh](/colormaps/assets/images/ncar_ncl/WhBlReWh.png) | ```cmaps.WhBlReWh``` | 100| 
-| WhiteBlue| ![WhiteBlue](/colormaps/assets/images/ncar_ncl/WhiteBlue.png) | ```cmaps.WhiteBlue``` | 254| 
-| WhiteGreen| ![WhiteGreen](/colormaps/assets/images/ncar_ncl/WhiteGreen.png) | ```cmaps.WhiteGreen``` | 254| 
-| WhiteYellowOrangeRed| ![WhiteYellowOrangeRed](/colormaps/assets/images/ncar_ncl/WhiteYellowOrangeRed.png) | ```cmaps.WhiteYellowOrangeRed``` | 254| 
-| amwg_blueyellowred| ![amwg_blueyellowred](/colormaps/assets/images/ncar_ncl/amwg_blueyellowred.png) | ```cmaps.amwg_blueyellowred``` | 16| 
-| circular_0| ![circular_0](/colormaps/assets/images/ncar_ncl/circular_0.png) | ```cmaps.circular_0``` | 18| 
-| circular_1| ![circular_1](/colormaps/assets/images/ncar_ncl/circular_1.png) | ```cmaps.circular_1``` | 12| 
-| circular_2| ![circular_2](/colormaps/assets/images/ncar_ncl/circular_2.png) | ```cmaps.circular_2``` | 24| 
-| cmp_b2r| ![cmp_b2r](/colormaps/assets/images/ncar_ncl/cmp_b2r.png) | ```cmaps.cmp_b2r``` | 64| 
-| cmp_flux| ![cmp_flux](/colormaps/assets/images/ncar_ncl/cmp_flux.png) | ```cmaps.cmp_flux``` | 22| 
-| default| ![default](/colormaps/assets/images/ncar_ncl/default.png) | ```cmaps.default``` | 32| 
-| detail| ![detail](/colormaps/assets/images/ncar_ncl/detail.png) | ```cmaps.detail``` | 254| 
-| drought_severity| ![drought_severity](/colormaps/assets/images/ncar_ncl/drought_severity.png) | ```cmaps.drought_severity``` | 7| 
-| extrema| ![extrema](/colormaps/assets/images/ncar_ncl/extrema.png) | ```cmaps.extrema``` | 254| 
-| gauss3| ![gauss3](/colormaps/assets/images/ncar_ncl/gauss3.png) | ```cmaps.gauss3``` | 254| 
 
-| gscyclic| ![gscyclic](/colormaps/assets/images/ncar_ncl/gscyclic.png) | ```cmaps.gscyclic``` | 6| 
-| gsdtol| ![gsdtol](/colormaps/assets/images/ncar_ncl/gsdtol.png) | ```cmaps.gsdtol``` | 31| 
-| gsltod| ![gsltod](/colormaps/assets/images/ncar_ncl/gsltod.png) | ```cmaps.gsltod``` | 31| 
-| helix| ![helix](/colormaps/assets/images/ncar_ncl/helix.png) | ```cmaps.helix``` | 254| 
-| helix1| ![helix1](/colormaps/assets/images/ncar_ncl/helix1.png) | ```cmaps.helix1``` | 254| 
-| hlu_default| ![hlu_default](/colormaps/assets/images/ncar_ncl/hlu_default.png) | ```cmaps.hlu_default``` | 32| 
-| hotcold_18lev| ![hotcold_18lev](/colormaps/assets/images/ncar_ncl/hotcold_18lev.png) | ```cmaps.hotcold_18lev``` | 19| 
-| hotcolr_19lev| ![hotcolr_19lev](/colormaps/assets/images/ncar_ncl/hotcolr_19lev.png) | ```cmaps.hotcolr_19lev``` | 20| 
-| hotres| ![hotres](/colormaps/assets/images/ncar_ncl/hotres.png) | ```cmaps.hotres``` | 254| 
-| lithology| ![lithology](/colormaps/assets/images/ncar_ncl/lithology.png) | ```cmaps.lithology``` | 213| 
+
+
+ 
+ 
+
+
+
+
+
+
 | matlab_hot| ![matlab_hot](/colormaps/assets/images/ncar_ncl/matlab_hot.png) | ```cmaps.matlab_hot``` | 64| 
 | matlab_lines| ![matlab_lines](/colormaps/assets/images/ncar_ncl/matlab_lines.png) | ```cmaps.matlab_lines``` | 64| 
 | mch_default| ![mch_default](/colormaps/assets/images/ncar_ncl/mch_default.png) | ```cmaps.mch_default``` | 15| 
@@ -502,6 +304,6 @@
 | uniform| ![uniform](/colormaps/assets/images/ncar_ncl/uniform.png) | ```cmaps.uniform``` | 173| 
 | vegetation_ClarkU| ![vegetation_ClarkU](/colormaps/assets/images/ncar_ncl/vegetation_ClarkU.png) | ```cmaps.vegetation_ClarkU``` | 256| 
 | vegetation_modis| ![vegetation_modis](/colormaps/assets/images/ncar_ncl/vegetation_modis.png) | ```cmaps.vegetation_modis``` | 21| 
-| wh_bl_gr_ye_re| ![wh_bl_gr_ye_re](/colormaps/assets/images/ncar_ncl/wh_bl_gr_ye_re.png) | ```cmaps.wh_bl_gr_ye_re``` | 199| 
+
 | wind_17lev| ![wind_17lev](/colormaps/assets/images/ncar_ncl/wind_17lev.png) | ```cmaps.wind_17lev``` | 18| 
 | wxpEnIR| ![wxpEnIR](/colormaps/assets/images/ncar_ncl/wxpEnIR.png) | ```cmaps.wxpEnIR``` | 100| 

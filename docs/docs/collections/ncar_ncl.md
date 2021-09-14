@@ -70,13 +70,6 @@
 | nrl_sirkes_nowhite| ![nrl_sirkes_nowhite](/colormaps/assets/images/ncar_ncl/nrl_sirkes_nowhite.png) | ```cmaps.nrl_sirkes_nowhite``` | 19| 
 
 
-## Qualitative Schemes
-
-| Name        | Colormap    | Code       | Levels     | 
-| ----------- | ----------- | -----------| -----------| 
-| NMCRef| ![NMCRef](/colormaps/assets/images/ncar_ncl/NMCRef.png) | ```cmaps.NMCRef``` | 16| 
-| NMCVel| ![NMCVel](/colormaps/assets/images/ncar_ncl/NMCVel.png) | ```cmaps.NMCVel``` | 17| 
-
 ## Rainbow
 
 
@@ -231,7 +224,8 @@
 | precip4_11lev| ![precip4_11lev](/colormaps/assets/images/ncar_ncl/precip4_11lev.png) | ```cmaps.precip4_11lev``` | 12| 
 | matlab_lines| ![matlab_lines](/colormaps/assets/images/ncar_ncl/matlab_lines.png) | ```cmaps.matlab_lines``` | 64| 
 | mch_default| ![mch_default](/colormaps/assets/images/ncar_ncl/mch_default.png) | ```cmaps.mch_default``` | 15| 
-
+| NMCRef| ![NMCRef](/colormaps/assets/images/ncar_ncl/NMCRef.png) | ```cmaps.NMCRef``` | 16| 
+| NMCVel| ![NMCVel](/colormaps/assets/images/ncar_ncl/NMCVel.png) | ```cmaps.NMCVel``` | 17| 
 
 ## GMT 	
 

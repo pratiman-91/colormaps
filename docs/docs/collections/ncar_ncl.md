@@ -25,14 +25,14 @@
 
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
-| GSFC_landsat_udf_density| ![GSFC_landsat_udf_density](/colormaps/assets/images/ncar_ncl/GSFC_landsat_udf_density.png) | ```cmaps.GSFC_landsat_udf_density``` | 11| 
 | NEO_modis_ndvi| ![NEO_modis_ndvi](/colormaps/assets/images/ncar_ncl/NEO_modis_ndvi.png) | ```cmaps.NEO_modis_ndvi``` | 256| 
-| NOC_ndvi| ![NOC_ndvi](/colormaps/assets/images/ncar_ncl/NOC_ndvi.png) | ```cmaps.NOC_ndvi``` | 253| 
 | WhiteBlue| ![WhiteBlue](/colormaps/assets/images/ncar_ncl/WhiteBlue.png) | ```cmaps.WhiteBlue``` | 254| 
 | WhiteGreen| ![WhiteGreen](/colormaps/assets/images/ncar_ncl/WhiteGreen.png) | ```cmaps.WhiteGreen``` | 254| 
 | WhiteYellowOrangeRed| ![WhiteYellowOrangeRed](/colormaps/assets/images/ncar_ncl/WhiteYellowOrangeRed.png) | ```cmaps.WhiteYellowOrangeRed``` | 254| 
 | gsdtol| ![gsdtol](/colormaps/assets/images/ncar_ncl/gsdtol.png) | ```cmaps.gsdtol``` | 31| 
 | gsltod| ![gsltod](/colormaps/assets/images/ncar_ncl/gsltod.png) | ```cmaps.gsltod``` | 31| 
+| sunshine_9lev| ![sunshine_9lev](/colormaps/assets/images/ncar_ncl/sunshine_9lev.png) | ```cmaps.sunshine_9lev``` | 10| 
+| matlab_hot| ![matlab_hot](/colormaps/assets/images/ncar_ncl/matlab_hot.png) | ```cmaps.matlab_hot``` | 64| 
 
 ## Divergent Schemes
 
@@ -57,6 +57,18 @@
 | drought_severity| ![drought_severity](/colormaps/assets/images/ncar_ncl/drought_severity.png) | ```cmaps.drought_severity``` | 7|
 | hotcold_18lev| ![hotcold_18lev](/colormaps/assets/images/ncar_ncl/hotcold_18lev.png) | ```cmaps.hotcold_18lev``` | 19| 
 | hotcolr_19lev| ![hotcolr_19lev](/colormaps/assets/images/ncar_ncl/hotcolr_19lev.png) | ```cmaps.hotcolr_19lev``` | 20| 
+| vegetation_ClarkU| ![vegetation_ClarkU](/colormaps/assets/images/ncar_ncl/vegetation_ClarkU.png) | ```cmaps.vegetation_ClarkU``` | 256| 
+| temp_19lev| ![temp_19lev](/colormaps/assets/images/ncar_ncl/temp_19lev.png) | ```cmaps.temp_19lev``` | 20| 
+| temp_diff_18lev| ![temp_diff_18lev](/colormaps/assets/images/ncar_ncl/temp_diff_18lev.png) | ```cmaps.temp_diff_18lev``` | 19| 
+| temp_diff_1lev| ![temp_diff_1lev](/colormaps/assets/images/ncar_ncl/temp_diff_1lev.png) | ```cmaps.temp_diff_1lev``` | 2| 
+| sunshine_diff_12lev| ![sunshine_diff_12lev](/colormaps/assets/images/ncar_ncl/sunshine_diff_12lev.png) | ```cmaps.sunshine_diff_12lev``` | 13| 
+| precip_diff_12lev| ![precip_diff_12lev](/colormaps/assets/images/ncar_ncl/precip_diff_12lev.png) | ```cmaps.precip_diff_12lev``` | 13| 
+| precip_diff_1lev| ![precip_diff_1lev](/colormaps/assets/images/ncar_ncl/precip_diff_1lev.png) | ```cmaps.precip_diff_1lev``` | 2| 
+| precip4_diff_19lev| ![precip4_diff_19lev](/colormaps/assets/images/ncar_ncl/precip4_diff_19lev.png) | ```cmaps.precip4_diff_19lev``` | 20|
+| ncl_default| ![ncl_default](/colormaps/assets/images/ncar_ncl/ncl_default.png) | ```cmaps.ncl_default``` | 254| 
+| nrl_sirkes| ![nrl_sirkes](/colormaps/assets/images/ncar_ncl/nrl_sirkes.png) | ```cmaps.nrl_sirkes``` | 21| 
+| nrl_sirkes_nowhite| ![nrl_sirkes_nowhite](/colormaps/assets/images/ncar_ncl/nrl_sirkes_nowhite.png) | ```cmaps.nrl_sirkes_nowhite``` | 19| 
+
 
 ## Qualitative Schemes
 
@@ -198,6 +210,28 @@
 | hlu_default| ![hlu_default](/colormaps/assets/images/ncar_ncl/hlu_default.png) | ```cmaps.hlu_default``` | 32| 
 | hotres| ![hotres](/colormaps/assets/images/ncar_ncl/hotres.png) | ```cmaps.hotres``` | 254| 
 | lithology| ![lithology](/colormaps/assets/images/ncar_ncl/lithology.png) | ```cmaps.lithology``` | 213| 
+| NOC_ndvi| ![NOC_ndvi](/colormaps/assets/images/ncar_ncl/NOC_ndvi.png) | ```cmaps.NOC_ndvi``` | 253| 
+| GSFC_landsat_udf_density| ![GSFC_landsat_udf_density](/colormaps/assets/images/ncar_ncl/GSFC_landsat_udf_density.png) | ```cmaps.GSFC_landsat_udf_density``` | 11| 
+| vegetation_modis| ![vegetation_modis](/colormaps/assets/images/ncar_ncl/vegetation_modis.png) | ```cmaps.vegetation_modis``` | 21| 
+| wind_17lev| ![wind_17lev](/colormaps/assets/images/ncar_ncl/wind_17lev.png) | ```cmaps.wind_17lev``` | 18| 
+| wxpEnIR| ![wxpEnIR](/colormaps/assets/images/ncar_ncl/wxpEnIR.png) | ```cmaps.wxpEnIR``` | 100| 
+| thelix| ![thelix](/colormaps/assets/images/ncar_ncl/thelix.png) | ```cmaps.thelix``` | 254| 
+| uniform| ![uniform](/colormaps/assets/images/ncar_ncl/uniform.png) | ```cmaps.uniform``` | 173| 
+| t2m_29lev| ![t2m_29lev](/colormaps/assets/images/ncar_ncl/t2m_29lev.png) | ```cmaps.t2m_29lev``` | 30| 
+| psgcap| ![psgcap](/colormaps/assets/images/ncar_ncl/psgcap.png) | ```cmaps.psgcap``` | 238| 
+| rh_19lev| ![rh_19lev](/colormaps/assets/images/ncar_ncl/rh_19lev.png) | ```cmaps.rh_19lev``` | 20| 
+| saw3| ![saw3](/colormaps/assets/images/ncar_ncl/saw3.png) | ```cmaps.saw3``` | 254| 
+| spread_15lev| ![spread_15lev](/colormaps/assets/images/ncar_ncl/spread_15lev.png) | ```cmaps.spread_15lev``` | 16|  
+| precip_11lev| ![precip_11lev](/colormaps/assets/images/ncar_ncl/precip_11lev.png) | ```cmaps.precip_11lev``` | 12| 
+| perc2_9lev| ![perc2_9lev](/colormaps/assets/images/ncar_ncl/perc2_9lev.png) | ```cmaps.perc2_9lev``` | 10| 
+| percent_11lev| ![percent_11lev](/colormaps/assets/images/ncar_ncl/percent_11lev.png) | ```cmaps.percent_11lev``` | 12| 
+| precip2_15lev| ![precip2_15lev](/colormaps/assets/images/ncar_ncl/precip2_15lev.png) | ```cmaps.precip2_15lev``` | 16| 
+| precip2_17lev| ![precip2_17lev](/colormaps/assets/images/ncar_ncl/precip2_17lev.png) | ```cmaps.precip2_17lev``` | 18| 
+| precip3_16lev| ![precip3_16lev](/colormaps/assets/images/ncar_ncl/precip3_16lev.png) | ```cmaps.precip3_16lev``` | 17| 
+| precip4_11lev| ![precip4_11lev](/colormaps/assets/images/ncar_ncl/precip4_11lev.png) | ```cmaps.precip4_11lev``` | 12| 
+| matlab_lines| ![matlab_lines](/colormaps/assets/images/ncar_ncl/matlab_lines.png) | ```cmaps.matlab_lines``` | 64| 
+| mch_default| ![mch_default](/colormaps/assets/images/ncar_ncl/mch_default.png) | ```cmaps.mch_default``` | 15| 
+
 
 ## GMT 	
 
@@ -266,44 +300,3 @@
 
 
 
- 
- 
-
-
-
-
-
-
-| matlab_hot| ![matlab_hot](/colormaps/assets/images/ncar_ncl/matlab_hot.png) | ```cmaps.matlab_hot``` | 64| 
-| matlab_lines| ![matlab_lines](/colormaps/assets/images/ncar_ncl/matlab_lines.png) | ```cmaps.matlab_lines``` | 64| 
-| mch_default| ![mch_default](/colormaps/assets/images/ncar_ncl/mch_default.png) | ```cmaps.mch_default``` | 15| 
-| ncl_default| ![ncl_default](/colormaps/assets/images/ncar_ncl/ncl_default.png) | ```cmaps.ncl_default``` | 254| 
-| nrl_sirkes| ![nrl_sirkes](/colormaps/assets/images/ncar_ncl/nrl_sirkes.png) | ```cmaps.nrl_sirkes``` | 21| 
-| nrl_sirkes_nowhite| ![nrl_sirkes_nowhite](/colormaps/assets/images/ncar_ncl/nrl_sirkes_nowhite.png) | ```cmaps.nrl_sirkes_nowhite``` | 19| 
-| perc2_9lev| ![perc2_9lev](/colormaps/assets/images/ncar_ncl/perc2_9lev.png) | ```cmaps.perc2_9lev``` | 10| 
-| percent_11lev| ![percent_11lev](/colormaps/assets/images/ncar_ncl/percent_11lev.png) | ```cmaps.percent_11lev``` | 12| 
-| precip2_15lev| ![precip2_15lev](/colormaps/assets/images/ncar_ncl/precip2_15lev.png) | ```cmaps.precip2_15lev``` | 16| 
-| precip2_17lev| ![precip2_17lev](/colormaps/assets/images/ncar_ncl/precip2_17lev.png) | ```cmaps.precip2_17lev``` | 18| 
-| precip3_16lev| ![precip3_16lev](/colormaps/assets/images/ncar_ncl/precip3_16lev.png) | ```cmaps.precip3_16lev``` | 17| 
-| precip4_11lev| ![precip4_11lev](/colormaps/assets/images/ncar_ncl/precip4_11lev.png) | ```cmaps.precip4_11lev``` | 12| 
-| precip4_diff_19lev| ![precip4_diff_19lev](/colormaps/assets/images/ncar_ncl/precip4_diff_19lev.png) | ```cmaps.precip4_diff_19lev``` | 20| 
-| precip_11lev| ![precip_11lev](/colormaps/assets/images/ncar_ncl/precip_11lev.png) | ```cmaps.precip_11lev``` | 12| 
-| precip_diff_12lev| ![precip_diff_12lev](/colormaps/assets/images/ncar_ncl/precip_diff_12lev.png) | ```cmaps.precip_diff_12lev``` | 13| 
-| precip_diff_1lev| ![precip_diff_1lev](/colormaps/assets/images/ncar_ncl/precip_diff_1lev.png) | ```cmaps.precip_diff_1lev``` | 2| 
-| psgcap| ![psgcap](/colormaps/assets/images/ncar_ncl/psgcap.png) | ```cmaps.psgcap``` | 238| 
-| rh_19lev| ![rh_19lev](/colormaps/assets/images/ncar_ncl/rh_19lev.png) | ```cmaps.rh_19lev``` | 20| 
-| saw3| ![saw3](/colormaps/assets/images/ncar_ncl/saw3.png) | ```cmaps.saw3``` | 254| 
-| spread_15lev| ![spread_15lev](/colormaps/assets/images/ncar_ncl/spread_15lev.png) | ```cmaps.spread_15lev``` | 16| 
-| sunshine_9lev| ![sunshine_9lev](/colormaps/assets/images/ncar_ncl/sunshine_9lev.png) | ```cmaps.sunshine_9lev``` | 10| 
-| sunshine_diff_12lev| ![sunshine_diff_12lev](/colormaps/assets/images/ncar_ncl/sunshine_diff_12lev.png) | ```cmaps.sunshine_diff_12lev``` | 13| 
-| t2m_29lev| ![t2m_29lev](/colormaps/assets/images/ncar_ncl/t2m_29lev.png) | ```cmaps.t2m_29lev``` | 30| 
-| temp_19lev| ![temp_19lev](/colormaps/assets/images/ncar_ncl/temp_19lev.png) | ```cmaps.temp_19lev``` | 20| 
-| temp_diff_18lev| ![temp_diff_18lev](/colormaps/assets/images/ncar_ncl/temp_diff_18lev.png) | ```cmaps.temp_diff_18lev``` | 19| 
-| temp_diff_1lev| ![temp_diff_1lev](/colormaps/assets/images/ncar_ncl/temp_diff_1lev.png) | ```cmaps.temp_diff_1lev``` | 2| 
-| thelix| ![thelix](/colormaps/assets/images/ncar_ncl/thelix.png) | ```cmaps.thelix``` | 254| 
-| uniform| ![uniform](/colormaps/assets/images/ncar_ncl/uniform.png) | ```cmaps.uniform``` | 173| 
-| vegetation_ClarkU| ![vegetation_ClarkU](/colormaps/assets/images/ncar_ncl/vegetation_ClarkU.png) | ```cmaps.vegetation_ClarkU``` | 256| 
-| vegetation_modis| ![vegetation_modis](/colormaps/assets/images/ncar_ncl/vegetation_modis.png) | ```cmaps.vegetation_modis``` | 21| 
-
-| wind_17lev| ![wind_17lev](/colormaps/assets/images/ncar_ncl/wind_17lev.png) | ```cmaps.wind_17lev``` | 18| 
-| wxpEnIR| ![wxpEnIR](/colormaps/assets/images/ncar_ncl/wxpEnIR.png) | ```cmaps.wxpEnIR``` | 100| 

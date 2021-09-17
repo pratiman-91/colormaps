@@ -2,7 +2,7 @@
  layout: default 
  title: Tableau
  parent: Collections 
- nav_order: 8 
+ nav_order: 9
  permalink: /docs/collections/tableau 
 --- 
 

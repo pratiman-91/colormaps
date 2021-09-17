@@ -2,7 +2,7 @@
  layout: default 
  title: Scientific
  parent: Collections
- nav_order: 6 
+ nav_order: 7
  permalink: /docs/collections/scientific 
 --- 
 

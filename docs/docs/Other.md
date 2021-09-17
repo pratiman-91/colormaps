@@ -271,3 +271,27 @@
 | speed_yel| ![speed_yel](/colormaps/assets/images/sciviz/speed_yel.png) | ```cmaps.speed_yel``` | 256| 
 | wlteqcool| ![wlteqcool](/colormaps/assets/images/sciviz/wlteqcool.png) | ```cmaps.wlteqcool``` | 256| 
 | wmutedset| ![wmutedset](/colormaps/assets/images/sciviz/wmutedset.png) | ```cmaps.wmutedset``` | 256| 
+
+## ColorCET
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| cet_c_grey| ![cet_c_grey](/colormaps/assets/images/colorcet/cet_c_grey.png) | ```cmaps.cet_c_grey``` | 256| 
+| cet_c_grey_15| ![cet_c_grey_15](/colormaps/assets/images/colorcet/cet_c_grey_15.png) | ```cmaps.cet_c_grey_15``` | 256| 
+| cet_c_mrybm| ![cet_c_mrybm](/colormaps/assets/images/colorcet/cet_c_mrybm.png) | ```cmaps.cet_c_mrybm``` | 256| 
+| cet_c_mrybm_35| ![cet_c_mrybm_35](/colormaps/assets/images/colorcet/cet_c_mrybm_35.png) | ```cmaps.cet_c_mrybm_35``` | 256| 
+| cet_c_mygbm| ![cet_c_mygbm](/colormaps/assets/images/colorcet/cet_c_mygbm.png) | ```cmaps.cet_c_mygbm``` | 256| 
+| cet_c_mygbm_30| ![cet_c_mygbm_30](/colormaps/assets/images/colorcet/cet_c_mygbm_30.png) | ```cmaps.cet_c_mygbm_30``` | 256| 
+| cet_c_protanopic_deuteranopic_bwyk| ![cet_c_protanopic_deuteranopic_bwyk](/colormaps/assets/images/colorcet/cet_c_protanopic_deuteranopic_bwyk.png) | ```cmaps.cet_c_protanopic_deuteranopic_bwyk``` | 256| 
+| cet_c_protanopic_deuteranopic_wywb| ![cet_c_protanopic_deuteranopic_wywb](/colormaps/assets/images/colorcet/cet_c_protanopic_deuteranopic_wywb.png) | ```cmaps.cet_c_protanopic_deuteranopic_wywb``` | 256| 
+| cet_c_tritanopic_cwrk_4| ![cet_c_tritanopic_cwrk_4](/colormaps/assets/images/colorcet/cet_c_tritanopic_cwrk_4.png) | ```cmaps.cet_c_tritanopic_cwrk_4``` | 256| 
+| cet_c_tritanopic_wrwc_7| ![cet_c_tritanopic_wrwc_7](/colormaps/assets/images/colorcet/cet_c_tritanopic_wrwc_7.png) | ```cmaps.cet_c_tritanopic_wrwc_7``` | 256| 
+| cet_c_wrwbw| ![cet_c_wrwbw](/colormaps/assets/images/colorcet/cet_c_wrwbw.png) | ```cmaps.cet_c_wrwbw``` | 256| 
+| cet_c_wrwbw_40| ![cet_c_wrwbw_40](/colormaps/assets/images/colorcet/cet_c_wrwbw_40.png) | ```cmaps.cet_c_wrwbw_40``` | 256| 
+| cet_i| ![cet_i](/colormaps/assets/images/colorcet/cet_i.png) | ```cmaps.cet_i``` | 256| 
+| cet_i_cgo| ![cet_i_cgo](/colormaps/assets/images/colorcet/cet_i_cgo.png) | ```cmaps.cet_i_cgo``` | 256| 
+| cet_i_cgo1| ![cet_i_cgo1](/colormaps/assets/images/colorcet/cet_i_cgo1.png) | ```cmaps.cet_i_cgo1``` | 256| 
+| cet_r_bgyr| ![cet_r_bgyr](/colormaps/assets/images/colorcet/cet_r_bgyr.png) | ```cmaps.cet_r_bgyr``` | 256| 
+| cet_r_bgyr1| ![cet_r_bgyr1](/colormaps/assets/images/colorcet/cet_r_bgyr1.png) | ```cmaps.cet_r_bgyr1``` | 256| 
+| cet_r_bgyrm| ![cet_r_bgyrm](/colormaps/assets/images/colorcet/cet_r_bgyrm.png) | ```cmaps.cet_r_bgyrm``` | 256| 
+| cet_r_bgyrm1| ![cet_r_bgyrm1](/colormaps/assets/images/colorcet/cet_r_bgyrm1.png) | ```cmaps.cet_r_bgyrm1``` | 256| 

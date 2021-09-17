@@ -69,3 +69,16 @@
 | tableaulight_10| ![tableaulight_10](/colormaps/assets/images/tableau/tableaulight_10.png) | ```cmaps.tableaulight_10``` | 10| 
 | tableaumedium_10| ![tableaumedium_10](/colormaps/assets/images/tableau/tableaumedium_10.png) | ```cmaps.tableaumedium_10``` | 10| 
 | trafficlight_9| ![trafficlight_9](/colormaps/assets/images/tableau/trafficlight_9.png) | ```cmaps.trafficlight_9``` | 9| 
+
+## ColorCET
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| cet_g_bw| ![cet_g_bw](/colormaps/assets/images/colorcet/cet_g_bw.png) | ```cmaps.cet_g_bw``` | 256| 
+| cet_g_bw_minc| ![cet_g_bw_minc](/colormaps/assets/images/colorcet/cet_g_bw_minc.png) | ```cmaps.cet_g_bw_minc``` | 256| 
+| cet_g_bw_minc1| ![cet_g_bw_minc1](/colormaps/assets/images/colorcet/cet_g_bw_minc1.png) | ```cmaps.cet_g_bw_minc1``` | 256| 
+| cet_g_bw_minc_maxl| ![cet_g_bw_minc_maxl](/colormaps/assets/images/colorcet/cet_g_bw_minc_maxl.png) | ```cmaps.cet_g_bw_minc_maxl``` | 256| 
+| cet_g_bw_minc_minl| ![cet_g_bw_minc_minl](/colormaps/assets/images/colorcet/cet_g_bw_minc_minl.png) | ```cmaps.cet_g_bw_minc_minl``` | 256| 
+| cet_g_category10| ![cet_g_category10](/colormaps/assets/images/colorcet/cet_g_category10.png) | ```cmaps.cet_g_category10``` | 256| 
+| cet_g_hv| ![cet_g_hv](/colormaps/assets/images/colorcet/cet_g_hv.png) | ```cmaps.cet_g_hv``` | 256| 
+

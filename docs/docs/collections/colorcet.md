@@ -1,8 +1,9 @@
 --- 
  layout: default 
- title: colorcet 
- nav_order: 2 
- permalink: /docs/colorcet 
+ title: ColorCET 
+ parent: Collections 
+ nav_order: 4
+ permalink: /docs/collections/colorcet 
 --- 
 
 # colorcet 

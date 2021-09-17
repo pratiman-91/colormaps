@@ -37,7 +37,7 @@ The MPL colour maps developed by Stéfan van der Walt and Nathaniel Smith. MPL m
 
 The CMOcean colour maps , developed by Kristen M. Thyng and colleagues, aim to provide the most intuitive colours for a given suite of physical parameters, while now also being perceptually uniform. A variety of continuous sequential, diverging and cyclic colour maps are provided to allow for an intuitive, true representation of a given physical parameter field. The CMOcean colour maps are available in a large variety of file formats.
 
-### CET (Centre for Exploration Targeting) (comming soon)
+### [CET (Centre for Exploration Targeting)](/colormaps/docs/collections/colorcet)
 
 The CET colour maps, developed by Peter Kovesi, aim to offer a large choice of the most common colour combinations in a wide variety of data formats. Many of the offered colour maps feature perceptual uniformity, although not all of them to the highest standards. The CET colour maps are continuous and cover sequential, diverging, and cyclic classes.
 

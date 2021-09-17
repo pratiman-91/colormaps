@@ -116,3 +116,23 @@
 | w5m4| ![w5m4](/colormaps/assets/images/sciviz/w5m4.png) | ```cmaps.w5m4``` | 256| 
 | w_ymiddle1| ![w_ymiddle1](/colormaps/assets/images/sciviz/w_ymiddle1.png) | ```cmaps.w_ymiddle1``` | 256| 
 
+## ColorCET
+
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| cet_d_bkr| ![cet_d_bkr](/colormaps/assets/images/colorcet/cet_d_bkr.png) | ```cmaps.cet_d_bkr``` | 256| 
+| cet_d_bky| ![cet_d_bky](/colormaps/assets/images/colorcet/cet_d_bky.png) | ```cmaps.cet_d_bky``` | 256| 
+| cet_d_bwg| ![cet_d_bwg](/colormaps/assets/images/colorcet/cet_d_bwg.png) | ```cmaps.cet_d_bwg``` | 256| 
+| cet_d_bwr| ![cet_d_bwr](/colormaps/assets/images/colorcet/cet_d_bwr.png) | ```cmaps.cet_d_bwr``` | 256| 
+| cet_d_cwm_8| ![cet_d_cwm_8](/colormaps/assets/images/colorcet/cet_d_cwm_8.png) | ```cmaps.cet_d_cwm_8``` | 256| 
+| cet_d_gkr| ![cet_d_gkr](/colormaps/assets/images/colorcet/cet_d_gkr.png) | ```cmaps.cet_d_gkr``` | 256| 
+| cet_d_gwr| ![cet_d_gwr](/colormaps/assets/images/colorcet/cet_d_gwr.png) | ```cmaps.cet_d_gwr``` | 256| 
+| cet_d_gwv| ![cet_d_gwv](/colormaps/assets/images/colorcet/cet_d_gwv.png) | ```cmaps.cet_d_gwv``` | 256| 
+| cet_d_isoluminant_cjm| ![cet_d_isoluminant_cjm](/colormaps/assets/images/colorcet/cet_d_isoluminant_cjm.png) | ```cmaps.cet_d_isoluminant_cjm``` | 256| 
+| cet_d_isoluminant_cjm1| ![cet_d_isoluminant_cjm1](/colormaps/assets/images/colorcet/cet_d_isoluminant_cjm1.png) | ```cmaps.cet_d_isoluminant_cjm1``` | 256| 
+| cet_d_isoluminant_cjo| ![cet_d_isoluminant_cjo](/colormaps/assets/images/colorcet/cet_d_isoluminant_cjo.png) | ```cmaps.cet_d_isoluminant_cjo``` | 256| 
+| cet_d_linear_bjr| ![cet_d_linear_bjr](/colormaps/assets/images/colorcet/cet_d_linear_bjr.png) | ```cmaps.cet_d_linear_bjr``` | 256| 
+| cet_d_linear_bjy| ![cet_d_linear_bjy](/colormaps/assets/images/colorcet/cet_d_linear_bjy.png) | ```cmaps.cet_d_linear_bjy``` | 256| 
+| cet_d_protanopic_deuteranopic_bwy| ![cet_d_protanopic_deuteranopic_bwy](/colormaps/assets/images/colorcet/cet_d_protanopic_deuteranopic_bwy.png) | ```cmaps.cet_d_protanopic_deuteranopic_bwy``` | 256| 
+| cet_d_rainbow_bgymr| ![cet_d_rainbow_bgymr](/colormaps/assets/images/colorcet/cet_d_rainbow_bgymr.png) | ```cmaps.cet_d_rainbow_bgymr``` | 256| 
+| cet_d_tritanopic_cwr| ![cet_d_tritanopic_cwr](/colormaps/assets/images/colorcet/cet_d_tritanopic_cwr.png) | ```cmaps.cet_d_tritanopic_cwr``` | 256| 

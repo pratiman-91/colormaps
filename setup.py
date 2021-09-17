@@ -3,7 +3,7 @@ from glob import glob
 from setuptools import setup
 import os
 
-VERSION = '0.2'
+VERSION = '0.3'
 CMAPSFILE_DIR = os.path.join('./colormaps/colormaps')
 
 
@@ -47,7 +47,9 @@ def _listfname():
     l.update({'sciviz': {
         'p': 'os.path.join(CMAPSFILE_DIR, "sciviz", ',
         'l': sorted(glob(os.path.join(CMAPSFILE_DIR, 'sciviz/*.rgb')))}})
-
+    l.update({'colorcet': {
+        'p': 'os.path.join(CMAPSFILE_DIR, "colorcet", ',
+        'l': sorted(glob(os.path.join(CMAPSFILE_DIR, 'colorcet/*.rgb')))}})
     return l
 
 
@@ -108,7 +110,8 @@ setup(
                             'colormaps/cubehelix/*',
                             'colormaps/scientific/*',
                             'colormaps/tableau/*',
-                            'colormaps/sciviz/*'], },
+                            'colormaps/sciviz/*',
+                            'colormaps/colorcet/*'], },
     data_files=[('', ['cmaps.template', 'LICENSE']),],
     url='',
     license='LICENSE',

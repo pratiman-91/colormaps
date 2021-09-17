@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 import colormaps as cmaps
 
 # Manually put all the folders (May change in future!)
-folders = ['cartocolors','cmocean','colorbrewer','cubehelix','ncar_ncl','scientific','tableau','sciviz']
+#folders = ['cartocolors','cmocean','colorbrewer','cubehelix','ncar_ncl','scientific','tableau','sciviz','colorcet']
+folders = ['colorcet']
 
 # Generating a gradient
 gradient = np.linspace(0, 1, 256)
@@ -71,7 +72,7 @@ for i in range(0,len(folders)):
 
         # Save the plot
         #os.path.exists()
-        plt.savefig('/home/ghost/Documents/colormaps/docs/assets/images/' + folders[i] + "/" + cname + ".png")
+        plt.savefig('docs/assets/images/' + folders[i] + "/" + cname + ".png")
 
     # Close the file 
     f.close()

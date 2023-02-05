@@ -3,7 +3,7 @@ from glob import glob
 from setuptools import setup
 import os
 
-VERSION = '0.3'
+VERSION = '0.3.1'
 CMAPSFILE_DIR = os.path.join('./colormaps/colormaps')
 
 
@@ -35,9 +35,6 @@ def _listfname():
     l.update({'ncl': {
         'p': 'os.path.join(CMAPSFILE_DIR, "ncar_ncl", ',
         'l': sorted(glob(os.path.join(CMAPSFILE_DIR, 'ncar_ncl/*.rgb')))}})
-    l.update({'self_defined': {
-        'p': 'os.path.join(CMAPSFILE_DIR, "self_defined", ',
-        'l': sorted(glob(os.path.join(CMAPSFILE_DIR, 'self_defined/*.rgb')))}})
     l.update({'scientific': {
         'p': 'os.path.join(CMAPSFILE_DIR, "scientific", ',
         'l': sorted(glob(os.path.join(CMAPSFILE_DIR, 'scientific/*.rgb')))}})
@@ -70,23 +67,37 @@ def write_cmaps(template_file='./cmaps.template'):
             c += '    @property\n'
             c += '    def {}(self):\n'.format(cname)
             c += '        cname = "{}"\n'.format(cname)
-            c += '        if cname in matplotlib.cm._cmap_registry:\n'
-            c += '            return matplotlib.cm.get_cmap(cname)\n'
             c += '        cmap_file = {} "{}")\n'.format(
                 l[t]['p'], os.path.basename(cmap_file))
             c += '        cmap = Colormap(self._coltbl(cmap_file), name=cname)\n'
-            c += '        matplotlib.cm.register_cmap(name=cname, cmap=cmap)\n'
+            c += '        if version.parse(mlp_version) >= version.parse("3.6.0"):\n'
+            c += '            if cname in sorted(_colormaps):\n'
+            c += '                return matplotlib.cm.get_cmap(cname)\n'
+            c += '            else:\n'
+            c += '                matplotlib.colormaps.register(name=cname, cmap=cmap)\n'
+            c += '        else:\n'
+            c += '            if cname in matplotlib.cm._cmap_registry:\n'
+            c += '                return matplotlib.cm.get_cmap(cname)\n'
+            c += '            else:\n'
+            c += '                matplotlib.cm.register_cmap(name=cname, cmap=cmap)\n\n'
             c += '        return cmap\n\n'
 
             c += '    @property\n'
             c += '    def {}(self):\n'.format(cname + '_r')
             c += '        cname = "{}"\n'.format(cname + '_r')
-            c += '        if cname in matplotlib.cm._cmap_registry:\n'
-            c += '            return matplotlib.cm.get_cmap(cname)\n'
             c += '        cmap_file = {} "{}")\n'.format(
                 l[t]['p'], os.path.basename(cmap_file))
             c += '        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)\n'
-            c += '        matplotlib.cm.register_cmap(name=cname, cmap=cmap)\n'
+            c += '        if version.parse(mlp_version) >= version.parse("3.6.0"):\n'
+            c += '            if cname in sorted(_colormaps):\n'
+            c += '                return matplotlib.cm.get_cmap(cname)\n'
+            c += '            else:\n'
+            c += '                matplotlib.colormaps.register(name=cname, cmap=cmap)\n'
+            c += '        else:\n'
+            c += '            if cname in matplotlib.cm._cmap_registry:\n'
+            c += '                return matplotlib.cm.get_cmap(cname)\n'
+            c += '            else:\n'
+            c += '                matplotlib.cm.register_cmap(name=cname, cmap=cmap)\n\n'
             c += '        return cmap\n\n'
 
     cmapspy = './colormaps/cmaps.py'
@@ -106,7 +117,7 @@ setup(
     package_data={'colormaps': ['colormaps/ncar_ncl/*',
                             'colormaps/cartocolors/*',
                             'colormaps/cmocean/*',
-                            'colormaps/colorbrewer',
+                            'colormaps/colorbrewer/*',
                             'colormaps/cubehelix/*',
                             'colormaps/scientific/*',
                             'colormaps/tableau/*',

@@ -124,9 +124,8 @@ setup(
                             'colormaps/sciviz/*',
                             'colormaps/colorcet/*'], },
     data_files=[('', ['cmaps.template', 'LICENSE']),],
-    url='',
+    url='https://pratiman-91.github.io/colormaps/',
     license='LICENSE',
-    description='',
-    long_description='',
+    description='A collection of colormaps or color palettes for Python',
     install_requires=['matplotlib', 'numpy'],
 )

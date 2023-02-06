@@ -29,6 +29,12 @@ Python with:
 
 ### Installation
 
+```
+pip install colormaps
+```
+
+or you can also use GitHub repo
+
 ```bash
 git clone https://github.com/pratiman-91/colormaps.git
 cd colormaps
@@ -91,7 +97,7 @@ cmaps.ice.discrete(11).cut(0.25, 'left')
 
 ```python
 from colormaps.utils import concat
-concat1 = concat(["cmocean_ice", "BkBlAqGrYeOrReViWh200"])
+concat1 = concat(["ice", "BkBlAqGrYeOrReViWh200"])
 ```
 
 ![concat_1](https://pratiman-91.github.io/colormaps/assets/images/demo/concat_1.png)
@@ -100,7 +106,7 @@ concat1 = concat(["cmocean_ice", "BkBlAqGrYeOrReViWh200"])
 
 ```python
 from colormaps.utils import concat
-concat2 = concat([cmaps.cmocean_ice, cmaps.BkBlAqGrYeOrReViWh200], ratios=[0.25,0.75])
+concat2 = concat([cmaps.ice, cmaps.BkBlAqGrYeOrReViWh200], ratios=[0.25,0.75])
 ```
 
 ![concat_1](https://pratiman-91.github.io/colormaps/assets/images/demo/concat_2.png)

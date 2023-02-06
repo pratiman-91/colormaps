@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "colormaps"
+version = "0.3.1"
+authors = [
+  { name="Pratiman Patel", email="pratiman_patel@hotmail.com" },
+]
+description = "Collection of colormaps or color palettes for Python"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://pratiman-91.github.io/colormaps/"
+"Bug Tracker" = "https://github.com/pratiman-91/colormaps/issues"

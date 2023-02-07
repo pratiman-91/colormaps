@@ -7,7 +7,8 @@ import colormaps as cmaps
 
 # Manually put all the folders (May change in future!)
 #folders = ['cartocolors','cmocean','colorbrewer','cubehelix','ncar_ncl','scientific','tableau','sciviz','colorcet']
-folders = ['colorcet']
+#folders = ['colorcet']
+folders = ['carbonplan', 'cmasher']
 
 # Generating a gradient
 gradient = np.linspace(0, 1, 256)
@@ -51,7 +52,8 @@ for i in range(0,len(folders)):
     f.write(table_heading2)
 
     # Loop for the rows and plotting the cmaps
-    for files in sorted(glob('colormaps/colormaps/' + folders[i] + '/*.rgb')):
+    #for files in sorted(glob('colormaps/colormaps/' + folders[i] + '/*.rgb')):
+    for files in sorted(glob('../colormaps/colormaps/' + folders[i] + '/*.rgb')):
         print("Processing: " + files)
 
         # Split the filenames
@@ -72,7 +74,8 @@ for i in range(0,len(folders)):
 
         # Save the plot
         #os.path.exists()
-        plt.savefig('docs/assets/images/' + folders[i] + "/" + cname + ".png")
+        #plt.savefig('docs/assets/images/' + folders[i] + "/" + cname + ".png")
+        plt.savefig('../docs/assets/images/' + folders[i] + "/" + cname + ".png")
 
     # Close the file 
     f.close()

@@ -27510,3 +27510,4071 @@ class Cmaps(object):
 
         return cmap
 
+    @property
+    def amber(self):
+        cname = "amber"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "amber.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def amber_r(self):
+        cname = "amber_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "amber.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def amethyst(self):
+        cname = "amethyst"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "amethyst.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def amethyst_r(self):
+        cname = "amethyst_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "amethyst.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def apple(self):
+        cname = "apple"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "apple.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def apple_r(self):
+        cname = "apple_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "apple.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def arctic(self):
+        cname = "arctic"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "arctic.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def arctic_r(self):
+        cname = "arctic_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "arctic.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def bubblegum(self):
+        cname = "bubblegum"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "bubblegum.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def bubblegum_r(self):
+        cname = "bubblegum_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "bubblegum.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def chroma(self):
+        cname = "chroma"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "chroma.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def chroma_r(self):
+        cname = "chroma_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "chroma.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def copper(self):
+        cname = "copper"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "copper.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def copper_r(self):
+        cname = "copper_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "copper.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def cosmic(self):
+        cname = "cosmic"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "cosmic.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def cosmic_r(self):
+        cname = "cosmic_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "cosmic.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def dusk(self):
+        cname = "dusk"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "dusk.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def dusk_r(self):
+        cname = "dusk_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "dusk.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def eclipse(self):
+        cname = "eclipse"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "eclipse.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def eclipse_r(self):
+        cname = "eclipse_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "eclipse.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def ember(self):
+        cname = "ember"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "ember.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def ember_r(self):
+        cname = "ember_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "ember.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def emerald(self):
+        cname = "emerald"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "emerald.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def emerald_r(self):
+        cname = "emerald_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "emerald.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def emergency(self):
+        cname = "emergency"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "emergency.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def emergency_r(self):
+        cname = "emergency_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "emergency.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def fall(self):
+        cname = "fall"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "fall.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def fall_r(self):
+        cname = "fall_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "fall.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def flamingo(self):
+        cname = "flamingo"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "flamingo.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def flamingo_r(self):
+        cname = "flamingo_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "flamingo.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def freeze(self):
+        cname = "freeze"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "freeze.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def freeze_r(self):
+        cname = "freeze_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "freeze.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def fusion(self):
+        cname = "fusion"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "fusion.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def fusion_r(self):
+        cname = "fusion_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "fusion.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def gem(self):
+        cname = "gem"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "gem.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def gem_r(self):
+        cname = "gem_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "gem.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def ghostlight(self):
+        cname = "ghostlight"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "ghostlight.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def ghostlight_r(self):
+        cname = "ghostlight_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "ghostlight.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def gothic(self):
+        cname = "gothic"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "gothic.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def gothic_r(self):
+        cname = "gothic_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "gothic.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def guppy(self):
+        cname = "guppy"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "guppy.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def guppy_r(self):
+        cname = "guppy_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "guppy.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def holly(self):
+        cname = "holly"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "holly.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def holly_r(self):
+        cname = "holly_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "holly.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def horizon(self):
+        cname = "horizon"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "horizon.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def horizon_r(self):
+        cname = "horizon_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "horizon.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def iceburn(self):
+        cname = "iceburn"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "iceburn.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def iceburn_r(self):
+        cname = "iceburn_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "iceburn.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def infinity(self):
+        cname = "infinity"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "infinity.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def infinity_r(self):
+        cname = "infinity_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "infinity.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def jungle(self):
+        cname = "jungle"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "jungle.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def jungle_r(self):
+        cname = "jungle_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "jungle.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def lavender(self):
+        cname = "lavender"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "lavender.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def lavender_r(self):
+        cname = "lavender_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "lavender.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def lilac(self):
+        cname = "lilac"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "lilac.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def lilac_r(self):
+        cname = "lilac_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "lilac.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def neon(self):
+        cname = "neon"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "neon.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def neon_r(self):
+        cname = "neon_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "neon.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def neutral(self):
+        cname = "neutral"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "neutral.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def neutral_r(self):
+        cname = "neutral_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "neutral.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def nuclear(self):
+        cname = "nuclear"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "nuclear.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def nuclear_r(self):
+        cname = "nuclear_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "nuclear.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def ocean(self):
+        cname = "ocean"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "ocean.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def ocean_r(self):
+        cname = "ocean_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "ocean.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pepper(self):
+        cname = "pepper"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "pepper.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pepper_r(self):
+        cname = "pepper_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "pepper.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pride(self):
+        cname = "pride"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "pride.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pride_r(self):
+        cname = "pride_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "pride.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def prinsenvlag(self):
+        cname = "prinsenvlag"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "prinsenvlag.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def prinsenvlag_r(self):
+        cname = "prinsenvlag_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "prinsenvlag.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def rainforest(self):
+        cname = "rainforest"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "rainforest.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def rainforest_r(self):
+        cname = "rainforest_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "rainforest.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def redshift(self):
+        cname = "redshift"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "redshift.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def redshift_r(self):
+        cname = "redshift_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "redshift.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def sapphire(self):
+        cname = "sapphire"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "sapphire.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def sapphire_r(self):
+        cname = "sapphire_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "sapphire.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def savanna(self):
+        cname = "savanna"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "savanna.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def savanna_r(self):
+        cname = "savanna_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "savanna.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def seasons(self):
+        cname = "seasons"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "seasons.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def seasons_r(self):
+        cname = "seasons_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "seasons.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def seaweed(self):
+        cname = "seaweed"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "seaweed.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def seaweed_r(self):
+        cname = "seaweed_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "seaweed.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def sepia(self):
+        cname = "sepia"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "sepia.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def sepia_r(self):
+        cname = "sepia_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "sepia.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def sunburst(self):
+        cname = "sunburst"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "sunburst.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def sunburst_r(self):
+        cname = "sunburst_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "sunburst.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def swamp(self):
+        cname = "swamp"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "swamp.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def swamp_r(self):
+        cname = "swamp_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "swamp.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def torch(self):
+        cname = "torch"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "torch.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def torch_r(self):
+        cname = "torch_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "torch.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def toxic(self):
+        cname = "toxic"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "toxic.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def toxic_r(self):
+        cname = "toxic_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "toxic.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def tree(self):
+        cname = "tree"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "tree.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def tree_r(self):
+        cname = "tree_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "tree.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def tropical(self):
+        cname = "tropical"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "tropical.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def tropical_r(self):
+        cname = "tropical_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "tropical.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def viola(self):
+        cname = "viola"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "viola.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def viola_r(self):
+        cname = "viola_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "viola.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def voltage(self):
+        cname = "voltage"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "voltage.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def voltage_r(self):
+        cname = "voltage_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "voltage.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def waterlily(self):
+        cname = "waterlily"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "waterlily.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def waterlily_r(self):
+        cname = "waterlily_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "waterlily.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def watermelon(self):
+        cname = "watermelon"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "watermelon.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def watermelon_r(self):
+        cname = "watermelon_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "watermelon.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def wildfire(self):
+        cname = "wildfire"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "wildfire.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def wildfire_r(self):
+        cname = "wildfire_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "cmasher",  "wildfire.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def bluegrey_dark(self):
+        cname = "bluegrey_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "bluegrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def bluegrey_dark_r(self):
+        cname = "bluegrey_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "bluegrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def bluegrey_light(self):
+        cname = "bluegrey_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "bluegrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def bluegrey_light_r(self):
+        cname = "bluegrey_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "bluegrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def blues_dark(self):
+        cname = "blues_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "blues_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def blues_dark_r(self):
+        cname = "blues_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "blues_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def blues_light(self):
+        cname = "blues_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "blues_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def blues_light_r(self):
+        cname = "blues_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "blues_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def cool_dark(self):
+        cname = "cool_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "cool_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def cool_dark_r(self):
+        cname = "cool_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "cool_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def cool_light(self):
+        cname = "cool_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "cool_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def cool_light_r(self):
+        cname = "cool_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "cool_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def earth_dark(self):
+        cname = "earth_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "earth_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def earth_dark_r(self):
+        cname = "earth_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "earth_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def earth_light(self):
+        cname = "earth_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "earth_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def earth_light_r(self):
+        cname = "earth_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "earth_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def fire_dark(self):
+        cname = "fire_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "fire_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def fire_dark_r(self):
+        cname = "fire_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "fire_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def fire_light(self):
+        cname = "fire_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "fire_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def fire_light_r(self):
+        cname = "fire_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "fire_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greengrey_dark(self):
+        cname = "greengrey_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greengrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greengrey_dark_r(self):
+        cname = "greengrey_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greengrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greengrey_light(self):
+        cname = "greengrey_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greengrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greengrey_light_r(self):
+        cname = "greengrey_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greengrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greens_dark(self):
+        cname = "greens_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greens_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greens_dark_r(self):
+        cname = "greens_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greens_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greens_light(self):
+        cname = "greens_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greens_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greens_light_r(self):
+        cname = "greens_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greens_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greys_dark(self):
+        cname = "greys_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greys_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greys_dark_r(self):
+        cname = "greys_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greys_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greys_light(self):
+        cname = "greys_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greys_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def greys_light_r(self):
+        cname = "greys_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "greys_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def heart_dark(self):
+        cname = "heart_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "heart_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def heart_dark_r(self):
+        cname = "heart_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "heart_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def heart_light(self):
+        cname = "heart_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "heart_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def heart_light_r(self):
+        cname = "heart_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "heart_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def orangeblue_dark(self):
+        cname = "orangeblue_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "orangeblue_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def orangeblue_dark_r(self):
+        cname = "orangeblue_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "orangeblue_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def orangeblue_light(self):
+        cname = "orangeblue_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "orangeblue_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def orangeblue_light_r(self):
+        cname = "orangeblue_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "orangeblue_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def orangegrey_dark(self):
+        cname = "orangegrey_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "orangegrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def orangegrey_dark_r(self):
+        cname = "orangegrey_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "orangegrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def orangegrey_light(self):
+        cname = "orangegrey_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "orangegrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def orangegrey_light_r(self):
+        cname = "orangegrey_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "orangegrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def oranges_dark(self):
+        cname = "oranges_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "oranges_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def oranges_dark_r(self):
+        cname = "oranges_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "oranges_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def oranges_light(self):
+        cname = "oranges_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "oranges_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def oranges_light_r(self):
+        cname = "oranges_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "oranges_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinkgreen_dark(self):
+        cname = "pinkgreen_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinkgreen_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinkgreen_dark_r(self):
+        cname = "pinkgreen_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinkgreen_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinkgreen_light(self):
+        cname = "pinkgreen_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinkgreen_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinkgreen_light_r(self):
+        cname = "pinkgreen_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinkgreen_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinkgrey_dark(self):
+        cname = "pinkgrey_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinkgrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinkgrey_dark_r(self):
+        cname = "pinkgrey_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinkgrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinkgrey_light(self):
+        cname = "pinkgrey_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinkgrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinkgrey_light_r(self):
+        cname = "pinkgrey_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinkgrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinks_dark(self):
+        cname = "pinks_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinks_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinks_dark_r(self):
+        cname = "pinks_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinks_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinks_light(self):
+        cname = "pinks_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinks_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def pinks_light_r(self):
+        cname = "pinks_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "pinks_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def purplegrey_dark(self):
+        cname = "purplegrey_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "purplegrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def purplegrey_dark_r(self):
+        cname = "purplegrey_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "purplegrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def purplegrey_light(self):
+        cname = "purplegrey_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "purplegrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def purplegrey_light_r(self):
+        cname = "purplegrey_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "purplegrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def purples_dark(self):
+        cname = "purples_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "purples_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def purples_dark_r(self):
+        cname = "purples_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "purples_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def purples_light(self):
+        cname = "purples_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "purples_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def purples_light_r(self):
+        cname = "purples_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "purples_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def rainbow_dark(self):
+        cname = "rainbow_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "rainbow_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def rainbow_dark_r(self):
+        cname = "rainbow_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "rainbow_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def rainbow_light(self):
+        cname = "rainbow_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "rainbow_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def rainbow_light_r(self):
+        cname = "rainbow_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "rainbow_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def redgrey_dark(self):
+        cname = "redgrey_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "redgrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def redgrey_dark_r(self):
+        cname = "redgrey_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "redgrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def redgrey_light(self):
+        cname = "redgrey_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "redgrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def redgrey_light_r(self):
+        cname = "redgrey_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "redgrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def reds_dark(self):
+        cname = "reds_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "reds_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def reds_dark_r(self):
+        cname = "reds_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "reds_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def reds_light(self):
+        cname = "reds_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "reds_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def reds_light_r(self):
+        cname = "reds_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "reds_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def redteal_dark(self):
+        cname = "redteal_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "redteal_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def redteal_dark_r(self):
+        cname = "redteal_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "redteal_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def redteal_light(self):
+        cname = "redteal_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "redteal_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def redteal_light_r(self):
+        cname = "redteal_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "redteal_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def sinebow_dark(self):
+        cname = "sinebow_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "sinebow_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def sinebow_dark_r(self):
+        cname = "sinebow_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "sinebow_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def sinebow_light(self):
+        cname = "sinebow_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "sinebow_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def sinebow_light_r(self):
+        cname = "sinebow_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "sinebow_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def tealgrey_dark(self):
+        cname = "tealgrey_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "tealgrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def tealgrey_dark_r(self):
+        cname = "tealgrey_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "tealgrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def tealgrey_light(self):
+        cname = "tealgrey_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "tealgrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def tealgrey_light_r(self):
+        cname = "tealgrey_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "tealgrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def teals_dark(self):
+        cname = "teals_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "teals_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def teals_dark_r(self):
+        cname = "teals_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "teals_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def teals_light(self):
+        cname = "teals_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "teals_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def teals_light_r(self):
+        cname = "teals_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "teals_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def warm_dark(self):
+        cname = "warm_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "warm_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def warm_dark_r(self):
+        cname = "warm_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "warm_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def warm_light(self):
+        cname = "warm_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "warm_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def warm_light_r(self):
+        cname = "warm_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "warm_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def water_dark(self):
+        cname = "water_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "water_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def water_dark_r(self):
+        cname = "water_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "water_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def water_light(self):
+        cname = "water_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "water_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def water_light_r(self):
+        cname = "water_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "water_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def wind_dark(self):
+        cname = "wind_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "wind_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def wind_dark_r(self):
+        cname = "wind_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "wind_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def wind_light(self):
+        cname = "wind_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "wind_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def wind_light_r(self):
+        cname = "wind_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "wind_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellowgrey_dark(self):
+        cname = "yellowgrey_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellowgrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellowgrey_dark_r(self):
+        cname = "yellowgrey_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellowgrey_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellowgrey_light(self):
+        cname = "yellowgrey_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellowgrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellowgrey_light_r(self):
+        cname = "yellowgrey_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellowgrey_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellowpurple_dark(self):
+        cname = "yellowpurple_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellowpurple_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellowpurple_dark_r(self):
+        cname = "yellowpurple_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellowpurple_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellowpurple_light(self):
+        cname = "yellowpurple_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellowpurple_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellowpurple_light_r(self):
+        cname = "yellowpurple_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellowpurple_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellows_dark(self):
+        cname = "yellows_dark"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellows_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellows_dark_r(self):
+        cname = "yellows_dark_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellows_dark.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellows_light(self):
+        cname = "yellows_light"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellows_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def yellows_light_r(self):
+        cname = "yellows_light_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "carbonplan",  "yellows_light.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+

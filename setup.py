@@ -3,7 +3,7 @@ from glob import glob
 from setuptools import setup
 import os
 
-VERSION = '0.3.2'
+VERSION = '0.3.3'
 CMAPSFILE_DIR = os.path.join('./colormaps/colormaps')
 
 
@@ -50,6 +50,9 @@ def _listfname():
     l.update({'cmasher': {
         'p': 'os.path.join(CMAPSFILE_DIR, "cmasher", ',
         'l': sorted(glob(os.path.join(CMAPSFILE_DIR, 'cmasher/*.rgb')))}})
+    l.update({'carbonplan': {
+        'p': 'os.path.join(CMAPSFILE_DIR, "carbonplan", ',
+        'l': sorted(glob(os.path.join(CMAPSFILE_DIR, 'carbonplan/*.rgb')))}})
     return l
 
 
@@ -126,7 +129,8 @@ setup(
                             'colormaps/tableau/*',
                             'colormaps/sciviz/*',
                             'colormaps/colorcet/*',
-                            'colormaps/cmasher/*'], },
+                            'colormaps/cmasher/*',
+                            'colormaps/carbonplan/*'], },
     data_files=[('', ['cmaps.template', 'LICENSE']),],
     url='https://pratiman-91.github.io/colormaps/',
     license='LICENSE',

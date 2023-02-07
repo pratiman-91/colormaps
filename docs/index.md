@@ -22,6 +22,8 @@ Colormaps has colormaps or color palettes from:
 - [scientific](/colormaps/docs/collections/scientific)
 - [sciviz](/colormaps/docs/collections/sciviz)
 - [tableau](/colormaps/docs/collections/tableau)
+- [carbonplan](/colormaps/docs/collections/carbonplan)
+- [cmasher](/colormaps/docs/collections/cmasher)
 - `may be more`
 
 <!---'[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }' -->
@@ -101,7 +103,7 @@ cmaps.ice.discrete(11).cut(0.25, 'left')
 
 ```python
 from colormaps.utils import concat
-concat1 = concat(["cmocean_ice", "BkBlAqGrYeOrReViWh200"])
+concat1 = concat(["ice", "BkBlAqGrYeOrReViWh200"])
 ```
 
 ![concat_1](/assets/images/demo/concat_1.png)
@@ -110,7 +112,7 @@ concat1 = concat(["cmocean_ice", "BkBlAqGrYeOrReViWh200"])
 
 ```python
 from colormaps.utils import concat
-concat2 = concat([cmaps.cmocean_ice, cmaps.BkBlAqGrYeOrReViWh200], ratios=[0.25,0.75])
+concat2 = concat([cmaps.ice, cmaps.BkBlAqGrYeOrReViWh200], ratios=[0.25,0.75])
 ```
 
 ![concat_1](/assets/images/demo/concat_2.png)

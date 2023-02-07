@@ -119,6 +119,83 @@
 | tokyo| ![tokyo](/colormaps/assets/images/scientific/tokyo.png) | ```cmaps.tokyo``` | 256| 
 | turku| ![turku](/colormaps/assets/images/scientific/turku.png) | ```cmaps.turku``` | 256| 
 
+## Cmasher
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| amber| ![amber](/colormaps/assets/images/cmasher/amber.png) | ```cmaps.amber``` | 256| 
+| amethyst| ![amethyst](/colormaps/assets/images/cmasher/amethyst.png) | ```cmaps.amethyst``` | 256| 
+| apple| ![apple](/colormaps/assets/images/cmasher/apple.png) | ```cmaps.apple``` | 256| 
+| arctic| ![arctic](/colormaps/assets/images/cmasher/arctic.png) | ```cmaps.arctic``` | 256| 
+| bubblegum| ![bubblegum](/colormaps/assets/images/cmasher/bubblegum.png) | ```cmaps.bubblegum``` | 256| 
+| chroma| ![chroma](/colormaps/assets/images/cmasher/chroma.png) | ```cmaps.chroma``` | 256| 
+| cosmic| ![cosmic](/colormaps/assets/images/cmasher/cosmic.png) | ```cmaps.cosmic``` | 256| 
+| dusk| ![dusk](/colormaps/assets/images/cmasher/dusk.png) | ```cmaps.dusk``` | 256| 
+| eclipse| ![eclipse](/colormaps/assets/images/cmasher/eclipse.png) | ```cmaps.eclipse``` | 256| 
+| ember| ![ember](/colormaps/assets/images/cmasher/ember.png) | ```cmaps.ember``` | 256| 
+| emerald| ![emerald](/colormaps/assets/images/cmasher/emerald.png) | ```cmaps.emerald``` | 256| 
+| fall| ![fall](/colormaps/assets/images/cmasher/fall.png) | ```cmaps.fall``` | 256| 
+| flamingo| ![flamingo](/colormaps/assets/images/cmasher/flamingo.png) | ```cmaps.flamingo``` | 256| 
+| freeze| ![freeze](/colormaps/assets/images/cmasher/freeze.png) | ```cmaps.freeze``` | 256| 
+| gem| ![gem](/colormaps/assets/images/cmasher/gem.png) | ```cmaps.gem``` | 256| 
+| ghostlight| ![ghostlight](/colormaps/assets/images/cmasher/ghostlight.png) | ```cmaps.ghostlight``` | 256| 
+| gothic| ![gothic](/colormaps/assets/images/cmasher/gothic.png) | ```cmaps.gothic``` | 256| 
+| horizon| ![horizon](/colormaps/assets/images/cmasher/horizon.png) | ```cmaps.horizon``` | 256| 
+| jungle| ![jungle](/colormaps/assets/images/cmasher/jungle.png) | ```cmaps.jungle``` | 256| 
+| lavender| ![lavender](/colormaps/assets/images/cmasher/lavender.png) | ```cmaps.lavender``` | 256| 
+| lilac| ![lilac](/colormaps/assets/images/cmasher/lilac.png) | ```cmaps.lilac``` | 256| 
+| neon| ![neon](/colormaps/assets/images/cmasher/neon.png) | ```cmaps.neon``` | 256| 
+| neutral| ![neutral](/colormaps/assets/images/cmasher/neutral.png) | ```cmaps.neutral``` | 2560| 
+| nuclear| ![nuclear](/colormaps/assets/images/cmasher/nuclear.png) | ```cmaps.nuclear``` | 256| 
+| ocean| ![ocean](/colormaps/assets/images/cmasher/ocean.png) | ```cmaps.ocean``` | 256| 
+| pepper| ![pepper](/colormaps/assets/images/cmasher/pepper.png) | ```cmaps.pepper``` | 256| 
+| rainforest| ![rainforest](/colormaps/assets/images/cmasher/rainforest.png) | ```cmaps.rainforest``` | 256| 
+| savanna| ![savanna](/colormaps/assets/images/cmasher/savanna.png) | ```cmaps.savanna``` | 256| 
+| sapphire| ![sapphire](/colormaps/assets/images/cmasher/sapphire.png) | ```cmaps.sapphire``` | 256| 
+| sepia| ![sepia](/colormaps/assets/images/cmasher/sepia.png) | ```cmaps.sepia``` | 256| 
+| sunburst| ![sunburst](/colormaps/assets/images/cmasher/sunburst.png) | ```cmaps.sunburst``` | 256| 
+| swamp| ![swamp](/colormaps/assets/images/cmasher/swamp.png) | ```cmaps.swamp``` | 256| 
+| torch| ![torch](/colormaps/assets/images/cmasher/torch.png) | ```cmaps.torch``` | 256| 
+| toxic| ![toxic](/colormaps/assets/images/cmasher/toxic.png) | ```cmaps.toxic``` | 256| 
+| tree| ![tree](/colormaps/assets/images/cmasher/tree.png) | ```cmaps.tree``` | 256| 
+| tropical| ![tropical](/colormaps/assets/images/cmasher/tropical.png) | ```cmaps.tropical``` | 256| 
+| voltage| ![voltage](/colormaps/assets/images/cmasher/voltage.png) | ```cmaps.voltage``` | 256| 
+
+## Carbonplan
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| blues_dark| ![blues_dark](/colormaps/assets/images/carbonplan/blues_dark.png) | ```cmaps.blues_dark``` | 255| 
+| blues_light| ![blues_light](/colormaps/assets/images/carbonplan/blues_light.png) | ```cmaps.blues_light``` | 255| 
+| cool_dark| ![cool_dark](/colormaps/assets/images/carbonplan/cool_dark.png) | ```cmaps.cool_dark``` | 255| 
+| cool_light| ![cool_light](/colormaps/assets/images/carbonplan/cool_light.png) | ```cmaps.cool_light``` | 255| 
+| earth_dark| ![earth_dark](/colormaps/assets/images/carbonplan/earth_dark.png) | ```cmaps.earth_dark``` | 255| 
+| earth_light| ![earth_light](/colormaps/assets/images/carbonplan/earth_light.png) | ```cmaps.earth_light``` | 255| 
+| fire_dark| ![fire_dark](/colormaps/assets/images/carbonplan/fire_dark.png) | ```cmaps.fire_dark``` | 255| 
+| fire_light| ![fire_light](/colormaps/assets/images/carbonplan/fire_light.png) | ```cmaps.fire_light``` | 255| 
+| greens_dark| ![greens_dark](/colormaps/assets/images/carbonplan/greens_dark.png) | ```cmaps.greens_dark``` | 255| 
+| greens_light| ![greens_light](/colormaps/assets/images/carbonplan/greens_light.png) | ```cmaps.greens_light``` | 255| 
+| greys_dark| ![greys_dark](/colormaps/assets/images/carbonplan/greys_dark.png) | ```cmaps.greys_dark``` | 255| 
+| greys_light| ![greys_light](/colormaps/assets/images/carbonplan/greys_light.png) | ```cmaps.greys_light``` | 255| 
+| heart_dark| ![heart_dark](/colormaps/assets/images/carbonplan/heart_dark.png) | ```cmaps.heart_dark``` | 255| 
+| heart_light| ![heart_light](/colormaps/assets/images/carbonplan/heart_light.png) | ```cmaps.heart_light``` | 255| 
+| oranges_dark| ![oranges_dark](/colormaps/assets/images/carbonplan/oranges_dark.png) | ```cmaps.oranges_dark``` | 255| 
+| oranges_light| ![oranges_light](/colormaps/assets/images/carbonplan/oranges_light.png) | ```cmaps.oranges_light``` | 255| 
+| pinks_dark| ![pinks_dark](/colormaps/assets/images/carbonplan/pinks_dark.png) | ```cmaps.pinks_dark``` | 255| 
+| pinks_light| ![pinks_light](/colormaps/assets/images/carbonplan/pinks_light.png) | ```cmaps.pinks_light``` | 255| 
+| purples_dark| ![purples_dark](/colormaps/assets/images/carbonplan/purples_dark.png) | ```cmaps.purples_dark``` | 255| 
+| purples_light| ![purples_light](/colormaps/assets/images/carbonplan/purples_light.png) | ```cmaps.purples_light``` | 255|
+| reds_dark| ![reds_dark](/colormaps/assets/images/carbonplan/reds_dark.png) | ```cmaps.reds_dark``` | 255| 
+| reds_light| ![reds_light](/colormaps/assets/images/carbonplan/reds_light.png) | ```cmaps.reds_light``` | 255| 
+| yellows_dark| ![yellows_dark](/colormaps/assets/images/carbonplan/yellows_dark.png) | ```cmaps.yellows_dark``` | 255| 
+| yellows_light| ![yellows_light](/colormaps/assets/images/carbonplan/yellows_light.png) | ```cmaps.yellows_light``` | 255| 
+| teals_dark| ![teals_dark](/colormaps/assets/images/carbonplan/teals_dark.png) | ```cmaps.teals_dark``` | 255| 
+| teals_light| ![teals_light](/colormaps/assets/images/carbonplan/teals_light.png) | ```cmaps.teals_light``` | 255| 
+| warm_dark| ![warm_dark](/colormaps/assets/images/carbonplan/warm_dark.png) | ```cmaps.warm_dark``` | 255| 
+| warm_light| ![warm_light](/colormaps/assets/images/carbonplan/warm_light.png) | ```cmaps.warm_light``` | 255| 
+| water_dark| ![water_dark](/colormaps/assets/images/carbonplan/water_dark.png) | ```cmaps.water_dark``` | 255| 
+| water_light| ![water_light](/colormaps/assets/images/carbonplan/water_light.png) | ```cmaps.water_light``` | 255| 
+| wind_dark| ![wind_dark](/colormaps/assets/images/carbonplan/wind_dark.png) | ```cmaps.wind_dark``` | 255| 
+| wind_light| ![wind_light](/colormaps/assets/images/carbonplan/wind_light.png) | ```cmaps.wind_light``` | 255| 
+
 ## SciViz
 
 | Name        | Colormap    | Code       | Levels     | 

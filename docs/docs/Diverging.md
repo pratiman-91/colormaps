@@ -98,6 +98,58 @@
 | tofino| ![tofino](/colormaps/assets/images/scientific/tofino.png) | ```cmaps.tofino``` | 256| 
 | vik| ![vik](/colormaps/assets/images/scientific/vik.png) | ```cmaps.vik``` | 256| 
 
+## Cmasher
+## Diverging Schemes
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| copper| ![copper](/colormaps/assets/images/cmasher/copper.png) | ```cmaps.copper``` | 256| 
+| emergency| ![emergency](/colormaps/assets/images/cmasher/emergency.png) | ```cmaps.emergency``` | 510| 
+| fusion| ![fusion](/colormaps/assets/images/cmasher/fusion.png) | ```cmaps.fusion``` | 511| 
+| guppy| ![guppy](/colormaps/assets/images/cmasher/guppy.png) | ```cmaps.guppy``` | 511| 
+| holly| ![holly](/colormaps/assets/images/cmasher/holly.png) | ```cmaps.holly``` | 511| 
+| iceburn| ![iceburn](/colormaps/assets/images/cmasher/iceburn.png) | ```cmaps.iceburn``` | 511| 
+| infinity| ![infinity](/colormaps/assets/images/cmasher/infinity.png) | ```cmaps.infinity``` | 510| 
+| pride| ![pride](/colormaps/assets/images/cmasher/pride.png) | ```cmaps.pride``` | 511| 
+| prinsenvlag| ![prinsenvlag](/colormaps/assets/images/cmasher/prinsenvlag.png) | ```cmaps.prinsenvlag``` | 511| 
+| redshift| ![redshift](/colormaps/assets/images/cmasher/redshift.png) | ```cmaps.redshift``` | 511| 
+| seasons| ![seasons](/colormaps/assets/images/cmasher/seasons.png) | ```cmaps.seasons``` | 510| 
+| seaweed| ![seaweed](/colormaps/assets/images/cmasher/seaweed.png) | ```cmaps.seaweed``` | 511| 
+| viola| ![viola](/colormaps/assets/images/cmasher/viola.png) | ```cmaps.viola``` | 511| 
+| waterlily| ![waterlily](/colormaps/assets/images/cmasher/waterlily.png) | ```cmaps.waterlily``` | 511| 
+| watermelon| ![watermelon](/colormaps/assets/images/cmasher/watermelon.png) | ```cmaps.watermelon``` | 511| 
+| wildfire| ![wildfire](/colormaps/assets/images/cmasher/wildfire.png) | ```cmaps.wildfire``` | 511| 
+
+
+## Carbonplan
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| bluegrey_dark| ![bluegrey_dark](/colormaps/assets/images/carbonplan/bluegrey_dark.png) | ```cmaps.bluegrey_dark``` | 255| 
+| bluegrey_light| ![bluegrey_light](/colormaps/assets/images/carbonplan/bluegrey_light.png) | ```cmaps.bluegrey_light``` | 255| 
+| greengrey_dark| ![greengrey_dark](/colormaps/assets/images/carbonplan/greengrey_dark.png) | ```cmaps.greengrey_dark``` | 255| 
+| greengrey_light| ![greengrey_light](/colormaps/assets/images/carbonplan/greengrey_light.png) | ```cmaps.greengrey_light``` | 255| 
+| orangeblue_dark| ![orangeblue_dark](/colormaps/assets/images/carbonplan/orangeblue_dark.png) | ```cmaps.orangeblue_dark``` | 255| 
+| orangeblue_light| ![orangeblue_light](/colormaps/assets/images/carbonplan/orangeblue_light.png) | ```cmaps.orangeblue_light``` | 255| 
+| orangegrey_dark| ![orangegrey_dark](/colormaps/assets/images/carbonplan/orangegrey_dark.png) | ```cmaps.orangegrey_dark``` | 255| 
+| orangegrey_light| ![orangegrey_light](/colormaps/assets/images/carbonplan/orangegrey_light.png) | ```cmaps.orangegrey_light``` | 255| 
+| pinkgreen_dark| ![pinkgreen_dark](/colormaps/assets/images/carbonplan/pinkgreen_dark.png) | ```cmaps.pinkgreen_dark``` | 255| 
+| pinkgreen_light| ![pinkgreen_light](/colormaps/assets/images/carbonplan/pinkgreen_light.png) | ```cmaps.pinkgreen_light``` | 255| 
+| pinkgrey_dark| ![pinkgrey_dark](/colormaps/assets/images/carbonplan/pinkgrey_dark.png) | ```cmaps.pinkgrey_dark``` | 255| 
+| pinkgrey_light| ![pinkgrey_light](/colormaps/assets/images/carbonplan/pinkgrey_light.png) | ```cmaps.pinkgrey_light``` | 255| 
+| purplegrey_dark| ![purplegrey_dark](/colormaps/assets/images/carbonplan/purplegrey_dark.png) | ```cmaps.purplegrey_dark``` | 255| 
+| purplegrey_light| ![purplegrey_light](/colormaps/assets/images/carbonplan/purplegrey_light.png) | ```cmaps.purplegrey_light``` | 255| 
+| redgrey_dark| ![redgrey_dark](/colormaps/assets/images/carbonplan/redgrey_dark.png) | ```cmaps.redgrey_dark``` | 255| 
+| redgrey_light| ![redgrey_light](/colormaps/assets/images/carbonplan/redgrey_light.png) | ```cmaps.redgrey_light``` | 255| 
+| redgrey_dark| ![redgrey_dark](/colormaps/assets/images/carbonplan/redgrey_dark.png) | ```cmaps.redgrey_dark``` | 255| 
+| redgrey_light| ![redgrey_light](/colormaps/assets/images/carbonplan/redgrey_light.png) | ```cmaps.redgrey_light``` | 255| 
+| redteal_dark| ![redteal_dark](/colormaps/assets/images/carbonplan/redteal_dark.png) | ```cmaps.redteal_dark``` | 255| 
+| redteal_light| ![redteal_light](/colormaps/assets/images/carbonplan/redteal_light.png) | ```cmaps.redteal_light``` | 255| 
+| tealgrey_dark| ![tealgrey_dark](/colormaps/assets/images/carbonplan/tealgrey_dark.png) | ```cmaps.tealgrey_dark``` | 255| 
+| tealgrey_light| ![tealgrey_light](/colormaps/assets/images/carbonplan/tealgrey_light.png) | ```cmaps.tealgrey_light``` | 255| 
+| yellowgrey_dark| ![yellowgrey_dark](/colormaps/assets/images/carbonplan/yellowgrey_dark.png) | ```cmaps.yellowgrey_dark``` | 255| 
+| yellowgrey_light| ![yellowgrey_light](/colormaps/assets/images/carbonplan/yellowgrey_light.png) | ```cmaps.yellowgrey_light``` | 255| 
+| yellowpurple_dark| ![yellowpurple_dark](/colormaps/assets/images/carbonplan/yellowpurple_dark.png) | ```cmaps.yellowpurple_dark``` | 255| 
+| yellowpurple_light| ![yellowpurple_light](/colormaps/assets/images/carbonplan/yellowpurple_light.png) | ```cmaps.yellowpurple_light``` | 255| 
+
 ## SciViz
 
 | Name        | Colormap    | Code       | Levels     | 

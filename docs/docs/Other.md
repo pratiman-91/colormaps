@@ -40,6 +40,15 @@
 | purple_16| ![purple_16](/colormaps/assets/images/cubehelix/purple_16.png) | ```cmaps.purple_16``` | 16| 
 | red_16| ![red_16](/colormaps/assets/images/cubehelix/red_16.png) | ```cmaps.red_16``` | 16| 
 
+## Carbonplan
+| Name        | Colormap    | Code       | Levels     | 
+| ----------- | ----------- | -----------| -----------| 
+| rainbow_dark| ![rainbow_dark](/colormaps/assets/images/carbonplan/rainbow_dark.png) | ```cmaps.rainbow_dark``` | 255| 
+| rainbow_light| ![rainbow_light](/colormaps/assets/images/carbonplan/rainbow_light.png) | ```cmaps.rainbow_light``` | 255| 
+| sinebow_dark| ![sinebow_dark](/colormaps/assets/images/carbonplan/sinebow_dark.png) | ```cmaps.sinebow_dark``` | 255| 
+| sinebow_light| ![sinebow_light](/colormaps/assets/images/carbonplan/sinebow_light.png) | ```cmaps.sinebow_light``` | 255| 
+
+
 ## NCAR NCL
 
 ### Rainbow

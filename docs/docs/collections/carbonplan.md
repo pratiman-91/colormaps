@@ -19,6 +19,7 @@
  ``` 
 
 ## Sequential Schemes
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | blues_dark| ![blues_dark](/colormaps/assets/images/carbonplan/blues_dark.png) | ```cmaps.blues_dark``` | 255| 
@@ -55,6 +56,7 @@
 | wind_light| ![wind_light](/colormaps/assets/images/carbonplan/wind_light.png) | ```cmaps.wind_light``` | 255| 
 
 ## Diverging Schemes
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | bluegrey_dark| ![bluegrey_dark](/colormaps/assets/images/carbonplan/bluegrey_dark.png) | ```cmaps.bluegrey_dark``` | 255| 
@@ -86,6 +88,7 @@
 
 
 ## Cyclic Schemes
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | rainbow_dark| ![rainbow_dark](/colormaps/assets/images/carbonplan/rainbow_dark.png) | ```cmaps.rainbow_dark``` | 255| 

@@ -1,8 +1,9 @@
 --- 
  layout: default 
- title: cmasher 
- nav_order: 3 
- permalink: /docs/cmasher 
+ title: Cmasher 
+ parent: Collections
+ nav_order: 11
+ permalink: /docs/collections/cmasher 
 --- 
 
 # cmasher 

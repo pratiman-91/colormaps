@@ -1,8 +1,9 @@
 --- 
  layout: default 
- title: carbonplan 
- nav_order: 2 
- permalink: /docs/carbonplan 
+ title: Carbonplan 
+ parent: Collections
+ nav_order: 10
+ permalink: /docs/collections/carbonplan 
 --- 
 
 # Carbonplan 

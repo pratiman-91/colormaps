@@ -120,6 +120,7 @@
 | turku| ![turku](/colormaps/assets/images/scientific/turku.png) | ```cmaps.turku``` | 256| 
 
 ## Cmasher
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | amber| ![amber](/colormaps/assets/images/cmasher/amber.png) | ```cmaps.amber``` | 256| 
@@ -161,6 +162,7 @@
 | voltage| ![voltage](/colormaps/assets/images/cmasher/voltage.png) | ```cmaps.voltage``` | 256| 
 
 ## Carbonplan
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | blues_dark| ![blues_dark](/colormaps/assets/images/carbonplan/blues_dark.png) | ```cmaps.blues_dark``` | 255| 

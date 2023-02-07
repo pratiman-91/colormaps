@@ -99,7 +99,7 @@
 | vik| ![vik](/colormaps/assets/images/scientific/vik.png) | ```cmaps.vik``` | 256| 
 
 ## Cmasher
-## Diverging Schemes
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | copper| ![copper](/colormaps/assets/images/cmasher/copper.png) | ```cmaps.copper``` | 256| 
@@ -121,6 +121,7 @@
 
 
 ## Carbonplan
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | bluegrey_dark| ![bluegrey_dark](/colormaps/assets/images/carbonplan/bluegrey_dark.png) | ```cmaps.bluegrey_dark``` | 255| 

@@ -19,6 +19,7 @@
  ``` 
 
 ## Sequential Schemes
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | amber| ![amber](/colormaps/assets/images/cmasher/amber.png) | ```cmaps.amber``` | 256| 
@@ -61,6 +62,7 @@
 
 
 ## Diverging Schemes
+
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
 | copper| ![copper](/colormaps/assets/images/cmasher/copper.png) | ```cmaps.copper``` | 256| 

@@ -13,6 +13,8 @@ Colormaps has colormaps or color palettes from:
 - [ncar ncl](https://pratiman-91.github.io/colormaps/docs/ncar_ncl)
 - [scientific](https://pratiman-91.github.io/colormaps/docs/scientific)
 - [tableau](https://pratiman-91.github.io/colormaps/docs/tableau)
+- [carbonplan](https://pratiman-91.github.io/colormaps/docs/carbonplan)
+- [cmasher](https://pratiman-91.github.io/colormaps/docs/cmasher)
 - `may be more`
 
 Docs: https://pratiman-91.github.io/colormaps/

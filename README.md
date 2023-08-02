@@ -139,3 +139,23 @@ plt.colorbar()
 ```
 
 ![concat_1](https://pratiman-91.github.io/colormaps/assets/images/demo/matplotlib_1.png)
+
+- Show different collections
+
+```python
+from colormaps.utils import show_cmaps_collection
+show_cmaps_collection(collection='cmasher')
+
+```
+
+![show_cmaps_collection](https://pratiman-91.github.io/colormaps/assets/images/demo/show_cmaps_collection.png)
+
+- Show all collections
+
+```python
+from colormaps.utils import show_cmaps_all
+show_cmaps_all()
+```
+> This is just a sample!
+
+![show_cmaps_all](https://pratiman-91.github.io/colormaps/assets/images/demo/show_cmaps_all.png)

@@ -35,6 +35,18 @@ Python with:
 pip install colormaps
 ```
 
+or using `conda`
+
+```
+conda install colormaps -c conda-forge`
+```
+
+or using `mamba`
+
+```
+mamba install colormaps
+```
+
 or you can also use GitHub repo
 
 ```bash

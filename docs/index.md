@@ -41,15 +41,29 @@ Python with:
 
 ### Installation
 
+```
+pip install colormaps
+```
+
+or using `conda`
+
+```
+conda install colormaps -c conda-forge`
+```
+
+or using `mamba`
+
+```
+mamba install colormaps
+```
+
+or you can also use GitHub repo
+
 ```bash
 git clone https://github.com/pratiman-91/colormaps.git
 cd colormaps
 python setup.py install
 ```
-
-### Finding Colormaps
-
-Colormaps are pre-built and loaded at the time of importing. 
 
 ### Using Colormaps
 
@@ -144,6 +158,11 @@ plt.colorbar()
 
 ![concat_1](/assets/images/demo/matplotlib_1.png)
 
+
+### Finding Colormaps
+
+Colormaps are pre-built and loaded at the time of importing. 
+
 - Show different collections
 
 ```python
@@ -160,6 +179,6 @@ show_cmaps_collection(collection='cmasher')
 from colormaps.utils import show_cmaps_all
 show_cmaps_all()
 ```
-> This is just a sample!
+> This is just a sample! You will get a long list of all possible colormap collections.
 
 ![show_cmaps_all](https://pratiman-91.github.io/colormaps/assets/images/demo/show_cmaps_all.png)

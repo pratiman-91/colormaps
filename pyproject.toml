@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "colormaps"
-version = "0.4.0"
+version = "0.4.1"
 authors = [
   { name="Pratiman Patel", email="pratiman_patel@hotmail.com" },
 ]

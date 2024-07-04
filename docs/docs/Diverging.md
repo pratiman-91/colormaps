@@ -90,13 +90,20 @@
 
 | Name        | Colormap    | Code       | Levels     | 
 | ----------- | ----------- | -----------| -----------| 
+| bam| ![bam](/assets/images/scientific/bam.png) | ```cmaps.bam``` | 256| 
+| bamo| ![bamo](/assets/images/scientific/bamo.png) | ```cmaps.bamo``` | 256| 
 | berlin| ![berlin](/colormaps/assets/images/scientific/berlin.png) | ```cmaps.berlin``` | 256| 
 | broc| ![broc](/colormaps/assets/images/scientific/broc.png) | ```cmaps.broc``` | 256| 
+| brocO| ![brocO](/assets/images/scientific/brocO.png) | ```cmaps.brocO``` | 256| 
 | cork| ![cork](/colormaps/assets/images/scientific/cork.png) | ```cmaps.cork``` | 256| 
+| corko| ![corko](/assets/images/scientific/corko.png) | ```cmaps.corko``` | 256| 
 | lisbon| ![lisbon](/colormaps/assets/images/scientific/lisbon.png) | ```cmaps.lisbon``` | 256| 
 | roma| ![roma](/colormaps/assets/images/scientific/roma.png) | ```cmaps.roma``` | 256| 
+| romao| ![romao](/assets/images/scientific/romao.png) | ```cmaps.romao``` | 256| 
 | tofino| ![tofino](/colormaps/assets/images/scientific/tofino.png) | ```cmaps.tofino``` | 256| 
+| vanimo| ![vanimo](/assets/images/scientific/vanimo.png) | ```cmaps.vanimo``` | 256| 
 | vik| ![vik](/colormaps/assets/images/scientific/vik.png) | ```cmaps.vik``` | 256| 
+| viko| ![viko](/assets/images/scientific/viko.png) | ```cmaps.viko``` | 256| 
 
 ## Cmasher
 

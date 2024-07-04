@@ -27727,6 +27727,54 @@ class Cmaps(object):
         return cmap
 
     @property
+    def vanimo(self):
+        cname = "vanimo"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "scientific",  "vanimo.rgb")
+        cmap = Colormap(self._coltbl(cmap_file), name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                if version.parse(mlp_version) >= version.parse("3.9.0"):
+                    return  matplotlib.colormaps[cname]
+                else: 
+                    return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                if version.parse(mlp_version) >= version.parse("3.9.0"):
+                    return  matplotlib.colormaps[cname]
+                else: 
+                    return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
+    def vanimo_r(self):
+        cname = "vanimo_r"
+        cmap_file = os.path.join(CMAPSFILE_DIR, "scientific",  "vanimo.rgb")
+        cmap = Colormap(self._coltbl(cmap_file)[::-1], name=cname)
+        if version.parse(mlp_version) >= version.parse("3.6.0"):
+            if cname in sorted(_colormaps):
+                if version.parse(mlp_version) >= version.parse("3.9.0"):
+                    return  matplotlib.colormaps[cname]
+                else: 
+                    return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.colormaps.register(name=cname, cmap=cmap)
+        else:
+            if cname in matplotlib.cm._cmap_registry:
+                if version.parse(mlp_version) >= version.parse("3.9.0"):
+                    return  matplotlib.colormaps[cname]
+                else: 
+                    return matplotlib.cm.get_cmap(cname)
+            else:
+                matplotlib.cm.register_cmap(name=cname, cmap=cmap)
+
+        return cmap
+
+    @property
     def vik(self):
         cname = "vik"
         cmap_file = os.path.join(CMAPSFILE_DIR, "scientific",  "vik.rgb")

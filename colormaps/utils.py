@@ -112,7 +112,12 @@ def show_cmaps(category, cmap_list):
     axs[0].set_title(f"{category} colormaps", fontsize=14)
 
     for ax, name in zip(axs, cmap_list):
-        ax.imshow(gradient, aspect="auto", cmap=eval("cmaps." + name))
+        colors1 = getattr(cmaps, name)
+        if version.parse(mlp_version) >= version.parse("3.9.0"):
+            colors1 = matplotlib.colormaps[name]
+        else:
+            colors1 = matplotlib.cm.get_cmap(name)
+        ax.imshow(gradient, aspect="auto", cmap=colors1)
         ax.text(
             -0.01,
             0.5,

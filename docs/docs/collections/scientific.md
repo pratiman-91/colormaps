@@ -43,8 +43,6 @@
 | lajolla| ![lajolla](/colormaps/assets/images/scientific/lajolla.png) | ```cmaps.lajolla``` | 256| 
 | lapaz| ![lapaz](/colormaps/assets/images/scientific/lapaz.png) | ```cmaps.lapaz``` | 256| 
 | lipari| ![lipari](/colormaps/assets/images/scientific/lipari.png) | ```cmaps.lipari``` | 256| 
-| lisbon| ![lisbon](/colormaps/assets/images/scientific/lisbon.png) | ```cmaps.lisbon``` | 256| 
-| managua| ![managua](/colormaps/assets/images/scientific/managua.png) | ```cmaps.managua``` | 256| 
 | navia| ![navia](/colormaps/assets/images/scientific/navia.png) | ```cmaps.navia``` | 256| 
 | naviaw| ![naviaw](/colormaps/assets/images/scientific/naviaw.png) | ```cmaps.naviaw``` | 256| 
 | nuuk| ![nuuk](/colormaps/assets/images/scientific/nuuk.png) | ```cmaps.nuuk``` | 256| 
@@ -65,6 +63,7 @@
 | cork| ![cork](/colormaps/assets/images/scientific/cork.png) | ```cmaps.cork``` | 256| 
 | corko| ![corko](/colormaps/assets/images/scientific/corko.png) | ```cmaps.corko``` | 256| 
 | lisbon| ![lisbon](/colormaps/assets/images/scientific/lisbon.png) | ```cmaps.lisbon``` | 256| 
+| managua| ![managua](/colormaps/assets/images/scientific/managua.png) | ```cmaps.managua``` | 256| 
 | roma| ![roma](/colormaps/assets/images/scientific/roma.png) | ```cmaps.roma``` | 256| 
 | romao| ![romao](/assets/images/scientific/romao.png) | ```cmaps.romao``` | 256| 
 | tofino| ![tofino](/colormaps/assets/images/scientific/tofino.png) | ```cmaps.tofino``` | 256| 

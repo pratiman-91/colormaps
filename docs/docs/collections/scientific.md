@@ -44,7 +44,7 @@
 | lapaz| ![lapaz](/colormaps/assets/images/scientific/lapaz.png) | ```cmaps.lapaz``` | 256| 
 | lipari| ![lipari](/colormaps/assets/images/scientific/lipari.png) | ```cmaps.lipari``` | 256| 
 | lisbon| ![lisbon](/colormaps/assets/images/scientific/lisbon.png) | ```cmaps.lisbon``` | 256| 
-| managua| ![managua](/assets/images/scientific/managua.png) | ```cmaps.managua``` | 256| 
+| managua| ![managua](/colormaps/assets/images/scientific/managua.png) | ```cmaps.managua``` | 256| 
 | navia| ![navia](/colormaps/assets/images/scientific/navia.png) | ```cmaps.navia``` | 256| 
 | naviaw| ![naviaw](/colormaps/assets/images/scientific/naviaw.png) | ```cmaps.naviaw``` | 256| 
 | nuuk| ![nuuk](/colormaps/assets/images/scientific/nuuk.png) | ```cmaps.nuuk``` | 256| 

@@ -45,6 +45,10 @@ class TestConcat:
         with pytest.raises(TypeError):
             concat(['blues_dark', 'blues_light'], name=123, save=True)
 
+    def test_trim_parameter(self):
+        result = concat(['blues_dark', 'blues_light'], trim=0.2)
+        assert isinstance(result, Colormap)
+
 
 class TestShowCmapsCollection:
     def test_valid_collection(self, monkeypatch):

@@ -20,7 +20,7 @@ def get_cmap(name):
 
 def register_cmap(name, cmap):
     if _USE_NEW_API:
-        matplotlib.colormaps.register(name=name, cmap=cmap)
+        matplotlib.colormaps.register(name=name, cmap=cmap, force=True)
     else:
         matplotlib.cm.register_cmap(name=name, cmap=cmap)
 

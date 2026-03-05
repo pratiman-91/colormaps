@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from .colormap import Colormap
-from ._compat import get_cmap
+from ._compat import get_cmap, register_cmap
 
 import matplotlib.cm
 import numpy as np
@@ -68,6 +68,7 @@ def concat(cnames, ratios=None, trim=0.0, discrete=256, name="concat", save=Fals
     mymap = Colormap(all_colors, name=name)
     mymap = mymap.discrete(min(mymap.N - 1, discrete))
     mymap.name = name
+    register_cmap(name, mymap)
 
     if save:
         if not isinstance(name, str):

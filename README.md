@@ -70,7 +70,16 @@ cmaps.drought_severity
 ```python
 cmaps.ice
 ```
+
 ![ice](https://pratiman-91.github.io/colormaps/assets/images/cmocean/ice.png)
+
+- Reverse the colormap
+
+```python
+cmaps.ice_r
+```
+
+![ice_r](https://pratiman-91.github.io/colormaps/assets/images/cmocean/ice_r.png)
 
 - Getting discrete number of levels
 
@@ -120,7 +129,22 @@ from colormaps.utils import concat
 concat2 = concat([cmaps.ice, cmaps.BkBlAqGrYeOrReViWh200], ratios=[0.25,0.75])
 ```
 
-![concat_1](https://pratiman-91.github.io/colormaps/assets/images/demo/concat_2.png)
+![concat_2](https://pratiman-91.github.io/colormaps/assets/images/demo/concat_2.png)
+
+- Concatenate two or more colormaps with granular support
+
+```python
+from colormaps.utils import concat
+concat3 = concat(
+        ["ice", "thermal"],
+        ratios=[0.4, 0.6],
+        trim=[0.1, 0.05],
+        discrete=128,
+        name="my_concat"
+    )
+```
+
+![my_concat](https://pratiman-91.github.io/colormaps/assets/images/demo/my_concat.png)
 
 - Matplotlib usage example
 
@@ -147,7 +171,87 @@ plt.pcolormesh(X,Y,Z,cmap=cmaps.cubehelix3_16_r)
 plt.colorbar()
 ```
 
-![concat_1](https://pratiman-91.github.io/colormaps/assets/images/demo/matplotlib_1.png)
+![matplotlib_1](https://pratiman-91.github.io/colormaps/assets/images/demo/matplotlib_1.png)
+
+- Using concat in matplotlib
+
+```python
+# Create sample data
+X = np.linspace(-np.pi, np.pi, 100)
+Y = np.linspace(-np.pi, np.pi, 100)
+X, Y = np.meshgrid(X, Y)
+Z = np.sin(X) * np.cos(Y)
+
+# Plot with a colormap
+fig, axes = plt.subplots(1, 2, figsize=(10, 4))
+
+# Using ice colormap
+im1 = axes[0].pcolormesh(X, Y, Z, cmap=cmaps.ice, shading='auto')
+axes[0].set_title("Using cmaps.ice")
+plt.colorbar(im1, ax=axes[0])
+
+# Using a custom concatenated colormap
+custom_cmap = concat(["thermal", "ice"], ratios=[0.4, 0.6])
+im2 = axes[1].pcolormesh(X, Y, Z, cmap=custom_cmap, shading='auto')
+axes[1].set_title("Using concat(['thermal', 'ice'])")
+plt.colorbar(im2, ax=axes[1])
+```
+
+![matplotlib_2](https://pratiman-91.github.io/colormaps/assets/images/demo/matplotlib_2.png)
+
+- Register maps with matplotlib
+
+```python
+_ = cmaps.ice      # registers "ice" with matplotlib
+_ = cmaps.thermal  # registers "thermal" with matplotlib
+
+X = np.linspace(-np.pi, np.pi, 100)
+Y = np.linspace(-np.pi, np.pi, 100)
+X, Y = np.meshgrid(X, Y)
+Z = np.sin(X) * np.cos(Y)
+
+fig, axes = plt.subplots(1, 2, figsize=(10, 4))
+
+im1 = axes[0].pcolormesh(X, Y, Z, cmap="ice", shading='auto')
+axes[0].set_title('cmap="ice" (registered by colormaps)')
+plt.colorbar(im1, ax=axes[0])
+
+im2 = axes[1].pcolormesh(X, Y, Z, cmap="thermal", shading='auto')
+axes[1].set_title('cmap="thermal" (registered by colormaps)')
+plt.colorbar(im2, ax=axes[1])
+
+plt.tight_layout()
+```
+
+![matplotlib_3](https://pratiman-91.github.io/colormaps/assets/images/demo/matplotlib_3.png)
+
+- Register collections with matplotlib
+
+```python
+# Register a single collection up front
+cmaps.register_collection('cmocean')
+
+# Now use by string name without prior attribute access
+X = np.linspace(0, 1, 100)
+Y = np.linspace(0, 1, 100)
+X, Y = np.meshgrid(X, Y)
+Z = np.sin(np.pi * X) * np.cos(np.pi * Y)
+
+fig, axes = plt.subplots(1, 2, figsize=(10, 4))
+im1 = axes[0].pcolormesh(X, Y, Z, cmap="ice", shading='auto')
+axes[0].set_title('cmap="ice" via register_collection("cmocean")')
+plt.colorbar(im1, ax=axes[0])
+
+cmaps.register_all()
+
+im2 = axes[1].pcolormesh(X, Y, Z, cmap="amber", shading='auto')
+axes[1].set_title('cmap="amber" via register_all()')
+plt.colorbar(im2, ax=axes[1])
+
+plt.tight_layout()
+```
+
+![matplotlib_4](https://pratiman-91.github.io/colormaps/assets/images/demo/matplotlib_4.png)
 
 ### Finding Colormaps
 
@@ -169,6 +273,7 @@ show_cmaps_collection(collection='cmasher')
 from colormaps.utils import show_cmaps_all
 show_cmaps_all()
 ```
+
 > This is just a sample! You will get a long list of all possible colormap collections.
 
 ![show_cmaps_all](https://pratiman-91.github.io/colormaps/assets/images/demo/show_cmaps_all.png)

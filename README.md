@@ -79,7 +79,7 @@ cmaps.ice
 cmaps.ice_r
 ```
 
-![ice_r](https://pratiman-91.github.io/colormaps/assets/images/cmocean/ice_r.png)
+![ice_r](https://pratiman-91.github.io/colormaps/assets/images/demo/ice_r.png)
 
 - Getting discrete number of levels
 
@@ -277,3 +277,4 @@ show_cmaps_all()
 > This is just a sample! You will get a long list of all possible colormap collections.
 
 ![show_cmaps_all](https://pratiman-91.github.io/colormaps/assets/images/demo/show_cmaps_all.png)
+

@@ -10,7 +10,12 @@ authors = [
 ]
 description = "Collection of colormaps or color palettes for Python"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "packaging",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",

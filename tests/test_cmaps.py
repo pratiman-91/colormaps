@@ -129,3 +129,27 @@ class TestDir:
     def test_contains_registry_key(self):
         c = Cmaps()
         assert 'blues_dark' in dir(c)
+
+
+class TestRegister:
+    def test_register_all_loads_into_cache(self):
+        c = Cmaps()
+        c.register_all()
+        for name in _cmaps_mod._REGISTRY:
+            assert name in c._cache
+
+    def test_register_collection_loads_cmasher(self):
+        c = Cmaps()
+        c.register_collection('cmasher')
+        # spot-check a known cmasher colormap
+        assert 'amber' in c._cache
+
+    def test_register_collection_invalid_raises(self):
+        c = Cmaps()
+        with pytest.raises(ValueError, match="Unknown collection"):
+            c.register_collection('nonexistent_collection')
+
+    def test_register_all_in_dir(self):
+        c = Cmaps()
+        assert 'register_all' in dir(c)
+        assert 'register_collection' in dir(c)

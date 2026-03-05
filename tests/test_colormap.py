@@ -88,9 +88,9 @@ class TestShift:
         s = sample_colormap.shift(-1)
         assert isinstance(s, Colormap)
 
-    def test_shift_zero_bug(self, sample_colormap):
-        with pytest.raises(UnboundLocalError):
-            sample_colormap.shift(0)
+    def test_shift_zero(self, sample_colormap):
+        s = sample_colormap.shift(0)
+        assert isinstance(s, Colormap)
 
 
 class TestCut:

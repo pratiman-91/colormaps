@@ -65,6 +65,9 @@ class Colormap(colors.ListedColormap):
         if (nshift > 1) or (nshift < -1):
             raise ValueError("nshift should be between -1 and 1.")
 
+        if nshift == 0:
+            return self
+
         shift = self.N * np.abs(nshift)
 
         if shift >= self.N:
@@ -72,10 +75,8 @@ class Colormap(colors.ListedColormap):
 
         if nshift > 0:
             levels = np.array(tuple(np.linspace(start=shift, stop=self.N - 1, dtype=int)))
-        elif nshift < 0:
+        else:
             levels = np.array(tuple(np.linspace(start=0, stop=shift - 1, dtype=int)))
-        elif nshift == 0:
-            pass
 
         return self.__getitem__(levels)
 

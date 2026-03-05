@@ -77,6 +77,31 @@ class Cmaps(object):
             register_cmap(cname_r, cmap_r)
             self._cache[cname_r] = cmap_r
 
+    def register_all(self):
+        """Register all colormaps with matplotlib."""
+        for name in _REGISTRY:
+            self._load_colormap(name)
+
+    def register_collection(self, collection):
+        """Register all colormaps from a named collection with matplotlib.
+
+        Parameters
+        ----------
+        collection : str
+            Collection name. One of: 'carbonplan', 'cartocolors', 'cmasher',
+            'cmocean', 'colorbrewer', 'colorcet', 'cubehelix', 'ncar_ncl',
+            'scientific', 'sciviz', 'tableau'.
+        """
+        from ._registry import COLLECTIONS
+        if collection not in COLLECTIONS:
+            raise ValueError(
+                f"Unknown collection '{collection}'. "
+                f"Available collections: {COLLECTIONS}"
+            )
+        for name, path in _REGISTRY.items():
+            if os.path.basename(os.path.dirname(path)) == collection:
+                self._load_colormap(name)
+
     def __getattr__(self, name):
         if name.startswith('_'):
             raise AttributeError(name)
@@ -87,4 +112,6 @@ class Cmaps(object):
     def __dir__(self):
         base = list(self._cache.keys()) + list(_REGISTRY.keys())
         base.append('__version__')
+        base.append('register_all')
+        base.append('register_collection')
         return sorted(set(base))

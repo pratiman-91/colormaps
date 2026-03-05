@@ -3,12 +3,11 @@ import os
 
 import numpy as np
 import matplotlib.pyplot as plt
-import colormaps as cmaps
 
 # Manually put all the folders (May change in future!)
 #folders = ['cartocolors','cmocean','colorbrewer','cubehelix','ncar_ncl','scientific','tableau','sciviz','colorcet']
 #folders = ['colorcet']
-folders = ['carbonplan', 'cmasher']
+folders = ['carbonplan']
 
 # Generating a gradient
 gradient = np.linspace(0, 1, 256)

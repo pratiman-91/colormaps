@@ -1,98 +1,83 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from .colormap import Colormap
+from ._compat import get_cmap
 
-# import matplotlib.colors as mc
 import matplotlib.cm
 import numpy as np
 import os
 from glob import glob
 
-mlp_version = matplotlib.__version__
-
 from ._version import __version__
-from packaging import version
 
 
-def concat(cnames, ratios=None, discrete=256, name="concat", save=False):
+def concat(cnames, ratios=None, trim=0.0, discrete=256, name="concat", save=False):
     """
     Concatenate two or more colormaps.
 
     Parameters
     ----------
-    cnames : list of str or list of cmaps
-        Provide the possible list of cmaps.
+    cnames : list of str, Colormap, or callable
+        List of colormaps. Each element may be a string name, a Colormap
+        object, or any callable that accepts a float array in [0, 1].
 
-    ratios : list of floats
-        Divide the colorbar based on the ratios. By default, divide it into the equal number of parts.
-        The sum of the ratios should be 1.
+    ratios : list of floats, optional
+        Proportion of the output each input occupies. Must sum to 1.
+        Defaults to equal proportions.
+
+    trim : float or list of float, optional
+        Fraction to trim from each end of each input colormap (0–0.5).
+        A scalar applies to all; a list applies per colormap.
+        Default is 0.0 (no trimming).
 
     discrete : int
-        Discrete number of levels. (Default: 256)
+        Number of discrete color levels in the output. (Default: 256)
 
     name : str
-        Name of the file. The file will be saved in rgb format
+        Name for the resulting colormap.
 
-    save : boolean (True or False)
-        If you want to save your colomap, them use True and must provide a name.
-
+    save : bool
+        If True, save the colormap to `name`.rgb.
     """
-    import colormaps as cmaps
+    n = len(cnames)
 
-    # Two variables, one for storing string and second for cmaps
-    colors_str = np.full(4, 0)
+    if ratios is None:
+        ratios = [1.0 / n] * n
 
-    # Starting the loop
-    j = 0
-    for cname in cnames:
-        if ratios is None:
-            # Equal ratios
-            ratio = 1 / len(cnames)
-        else:
-            ratio = ratios[j]
-        # Process for the strings
-        if isinstance(cname, str):
-            colors1 = getattr(cmaps, cname)
-            if version.parse(mlp_version) >= version.parse("3.9.0"):
-                colors1 = matplotlib.colormaps[cname]
-            else:
-                colors1 = matplotlib.cm.get_cmap(cname)
-            colors1 = colors1(np.linspace(0, 1, int(256 * ratio)))
-            colors1 = Colormap(colors1, name="temp")
-            colors1 = colors1.cut(0.2, "left")
-            colors1 = colors1.cut(0.2, "right")
-            colors1 = colors1.colors
-            colors_str = np.vstack((colors_str, colors1))
-        else:
-            # Process for the cmaps
-            colors1 = cname(np.linspace(0.2, 0.8, int(256 * ratio)))
-            # combine them and build a new colormap
-            colors_str = np.vstack((colors_str, colors1))
-
-        j = j + 1
-
-    mymap = Colormap(colors_str[1:], name=name)
-
-    # Discrete logic (Mostly to avoid warning)
-    if mymap.N < discrete:
-        mymap = mymap.discrete(mymap.N - 1)
-    elif mymap.N == 256:
-        mymap = mymap.discrete(255)
+    if isinstance(trim, (int, float)):
+        trims = [trim] * n
     else:
-        mymap = mymap.discrete(discrete)
+        trims = list(trim)
 
+    segments = []
+    for cname, ratio, t in zip(cnames, ratios, trims):
+        n_colors = max(2, int(256 * ratio))
+        lo, hi = t, 1.0 - t
+
+        if isinstance(cname, str):
+            from ._compat import is_registered
+            if not is_registered(cname):
+                from .cmaps import Cmaps
+                Cmaps()._load_colormap(cname)
+            cmap = get_cmap(cname)
+        else:
+            cmap = cname
+        segments.append(cmap(np.linspace(lo, hi, n_colors)))
+
+    all_colors = np.vstack(segments)
+    mymap = Colormap(all_colors, name=name)
+    mymap = mymap.discrete(min(mymap.N - 1, discrete))
     mymap.name = name
 
-    if save is True:
-        if isinstance(name, str):
-            np.savetxt(
-                name + ".rgb",
-                mymap.colors * 255,
-                fmt="%.0f",
-                header="ncolors=" + str(len(mymap.colors)) + "\n" + "r g b",
-            )
-        else:
-            raise Exception("name must be str")
+    if save:
+        if not isinstance(name, str):
+            raise TypeError("name must be str")
+        np.savetxt(
+            name + ".rgb",
+            mymap.colors * 255,
+            fmt="%.0f",
+            header="ncolors=" + str(len(mymap.colors)) + "\n" + "r g b",
+        )
 
     return mymap
 
@@ -113,10 +98,7 @@ def show_cmaps(category, cmap_list):
 
     for ax, name in zip(axs, cmap_list):
         colors1 = getattr(cmaps, name)
-        if version.parse(mlp_version) >= version.parse("3.9.0"):
-            colors1 = matplotlib.colormaps[name]
-        else:
-            colors1 = matplotlib.cm.get_cmap(name)
+        colors1 = get_cmap(name)
         ax.imshow(gradient, aspect="auto", cmap=colors1)
         ax.text(
             -0.01,
@@ -142,20 +124,20 @@ def show_cmaps_all():
         cmapsflist = sorted(
             glob(os.path.join(CMAPSFILE_DIR, "**/*.rgb"), recursive=True)
         )
-        FirstTime = True
+        first_time = True
         for cmap_file in cmapsflist:
             cname = os.path.basename(cmap_file).split(".rgb")[0]
             cname_group = cmap_file.split("/")[-2]
-            if FirstTime == True:
+            if first_time:
                 category = cname_group
                 cmap_list = [cname]
-                FirstTime = False
+                first_time = False
             else:
                 if category == cname_group:
                     cmap_list.append(cname)
                 else:
                     show_cmaps(category=category, cmap_list=cmap_list)
-                    FirstTime = True
+                    first_time = True
 
 
 def show_cmaps_collection(collection="cartocolors"):
@@ -166,14 +148,14 @@ def show_cmaps_collection(collection="cartocolors"):
     if CMAPSFILE_DIR is not None:
         cmapsflist = sorted(glob(os.path.join(CMAPSFILE_DIR, collection, "*.rgb")))
         if len(cmapsflist):
-            FirstTime = True
+            first_time = True
             for cmap_file in cmapsflist:
                 cname = os.path.basename(cmap_file).split(".rgb")[0]
                 cname_group = cmap_file.split("/")[-2]
-                if FirstTime == True:
+                if first_time:
                     category = cname_group
                     cmap_list = [cname]
-                    FirstTime = False
+                    first_time = False
                 else:
                     if category == cname_group:
                         cmap_list.append(cname)
@@ -183,13 +165,13 @@ def show_cmaps_collection(collection="cartocolors"):
             cmapsflist = sorted(
                 glob(os.path.join(CMAPSFILE_DIR, "**/*.rgb"), recursive=True)
             )
-            FirstTime = True
+            first_time = True
             for cmap_file in cmapsflist:
                 cname_group = cmap_file.split("/")[-2]
-                if FirstTime == True:
+                if first_time:
                     category = cname_group
                     all_collection = [cname_group]
-                    FirstTime = False
+                    first_time = False
                 else:
                     if category != cname_group:
                         category = cname_group

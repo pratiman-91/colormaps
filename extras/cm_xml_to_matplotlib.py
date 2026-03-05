@@ -3,7 +3,6 @@
 # This script converts the .xml(ParaView compatible format) colormaps into Matplotlib or MATLAB format
 import sys
 import os
-import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 from lxml import etree
@@ -15,7 +14,7 @@ from lxml import etree
 def load_xml(xml):
     try:
         xmldoc = etree.parse(xml)
-    except IOError as e:
+    except IOError:
         print('The input file is invalid. It must be a colormap xml file. '
               'Go to https://sciviscolor.org/home/colormaps/ for some good options')
         print('Go to https://sciviscolor.org/matlab-matplotlib-pv44/ for an example use of this script.')

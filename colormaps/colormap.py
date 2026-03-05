@@ -46,7 +46,7 @@ class Colormap(colors.ListedColormap):
 
             warnings.warn(
                 "Warning: Number of levels requested is more than the number of colors. "
-                "Deafulting to maximum number of colors.")
+                "Defaulting to maximum number of colors.")
 
         levels = np.array(tuple(np.linspace(start=0, stop=self.N - 1, num=ncolors, dtype=int)))
         return self.__getitem__(levels)
@@ -63,7 +63,10 @@ class Colormap(colors.ListedColormap):
             
         """
         if (nshift > 1) or (nshift < -1):
-            raise Exception("nshift should be between -1 and 1.")
+            raise ValueError("nshift should be between -1 and 1.")
+
+        if nshift == 0:
+            return self
 
         shift = self.N * np.abs(nshift)
 
@@ -72,12 +75,8 @@ class Colormap(colors.ListedColormap):
 
         if nshift > 0:
             levels = np.array(tuple(np.linspace(start=shift, stop=self.N - 1, dtype=int)))
-        elif nshift < 0:
-            levels = np.array(tuple(np.linspace(start=0, stop=shift - 1, dtype=int)))
-        elif nshift == 0:
-            pass
         else:
-            raise Exception("Shift only supports 'left' and 'right'.")
+            levels = np.array(tuple(np.linspace(start=0, stop=shift - 1, dtype=int)))
 
         return self.__getitem__(levels)
 
@@ -95,12 +94,10 @@ class Colormap(colors.ListedColormap):
         """
 
         if (ncut > 1) or (ncut < -1):
-            raise Exception("nshift should be between -1 and 1.")
+            raise ValueError("ncut should be between -1 and 1.")
 
-        if (loc == 'left') or (loc == 'right') or (loc == 'centre'):
-            pass
-        else:
-            raise Exception("loc should be between 'left', right' or 'centre'.")
+        if loc not in ('left', 'right', 'centre'):
+            raise ValueError("loc should be 'left', 'right' or 'centre'.")
 
         # Check for even/odd 
         if (self.N % 2) == 0:
@@ -142,5 +139,3 @@ class Colormap(colors.ListedColormap):
             offset = int(self.N * np.abs(ncut))
             levels = levels[:-offset]
             return self.__getitem__(levels)
-        else:
-            raise Exception("Something is wrong here!")

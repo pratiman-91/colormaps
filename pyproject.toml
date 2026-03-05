@@ -4,13 +4,18 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "colormaps"
-version = "0.4.2"
+version = "0.5.0"
 authors = [
   { name="Pratiman Patel", email="pratiman_patel@hotmail.com" },
 ]
 description = "Collection of colormaps or color palettes for Python"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "packaging",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
